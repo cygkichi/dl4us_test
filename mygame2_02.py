@@ -13,13 +13,13 @@ def close_branch(A, edges):
         A[i_from, i_to] = 0
 
 def entry_box(state):
-    if np.random.rand()<0.1:
+    if np.random.rand()<0.3:
         state[:,0] = [0,1]
-    if np.random.rand()<0.1:
+    if np.random.rand()<0.3:
         state[:,0] = [1,0]
-    if np.random.rand()<0.1:
+    if np.random.rand()<0.3:
         state[:,16] = [0,1]
-    if np.random.rand()<0.1:
+    if np.random.rand()<0.3:
         state[:,16] = [1,0]
     return state
 
@@ -59,6 +59,9 @@ class bucketbrigade(object):
         return self.state.flatten()
 
     def step(self, action):
+        a = '000000' + str(format(action, 'b'))
+        a = a[-6:]
+        action = [int(a[0]), int(a[1]), int(a[2]), int(a[3]), int(a[4]), int(a[5])]
         now_state    = self.state
         action_b = action[:self.n_branchs]
         action_m = action[self.n_branchs:]

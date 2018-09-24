@@ -8,14 +8,14 @@ from keras.engine.topology import Layer
 from keras.optimizers import RMSprop
 from keras.utils import to_categorical
 #from mygame import *
-from mygame2 import *
+from mygame2_02 import *
 
 
 
 def build_mlp():
     model = Sequential()    
     model.add(Dense(20, activation='relu', input_shape=(70,)))
-    model.add(Dense(6))
+    model.add(Dense(64))
     
     model.compile(RMSprop(), 'mse')
     return model
@@ -55,7 +55,7 @@ def copy_weights(model_original, model_target):
 memory_size = 10**6 # 10**6
 initial_memory_size = 5000 # 50000
 #n_actions = 2
-n_actions = 6
+n_actions = 64
 
 #env = mygame()
 env = bucketbrigade()
@@ -68,9 +68,7 @@ while True:
     terminal = False
     
     while not terminal:
-        #action = np.random.randint(0, n_actions)
-        action_i = np.random.randint(0, n_actions)
-        action = np.eye(n_actions, dtype=int)[action_i]
+        action = np.random.randint(0, n_actions)
         
         next_state, reward, terminal, _ = env.step(action)
         reward = np.sign(reward)
@@ -103,10 +101,11 @@ model = build_mlp()
 model_target = build_mlp()
 
 eps_start = 1.0
-eps_end = 0.01
+eps_end = 0.001
 #n_steps = 10000
-n_steps = 1000
+n_steps = 100
 
+#gamma = 0.99
 gamma = 0.99
 target_update_interval = 1000
 
@@ -118,8 +117,7 @@ def get_eps(step):
 n_episodes = 10000
 
 def create_target(y, _t, action, n_actions):
-    #one_hot = to_categorical(action, n_actions)
-    one_hot = action
+    one_hot = to_categorical(action, n_actions)
     t = (1 - one_hot) * y + one_hot * _t[:, None]
     
     return t
@@ -152,13 +150,9 @@ for episode in range(n_episodes):
         total_q_max.append(np.max(q))
         eps = get_eps(step)
         if np.random.random() < eps:
-            #action = np.random.randint(0, n_actions)
-            action_i = np.random.randint(0, n_actions)
+            action = np.random.randint(0, n_actions)
         else:
-            #action = np.argmax(q)
-            action_i = np.argmax(q)
-        action_i = np.random.randint(0, n_actions)
-        action = np.eye(n_actions, dtype=int)[action_i]     
+            action = np.argmax(q)
             
         next_state, reward, terminal, _ = env.step(action)
         #reward = np.sign(reward)
