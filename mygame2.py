@@ -12,10 +12,21 @@ def close_branch(A, edges):
     for i_from, i_to in edges:
         A[i_from, i_to] = 0
 
+def entry_box(state):
+    if np.random.rand()<0.1:
+        state[:,0] = [0,1]
+    if np.random.rand()<0.1:
+        state[:,0] = [1,0]
+    if np.random.rand()<0.1:
+        state[:,16] = [0,1]
+    if np.random.rand()<0.1:
+        state[:,16] = [1,0]
+    return state
+
 def calc_reward(state):
     goalA = state[:,15]
     goalB = state[:,31]
-    return goalA[0] + goalB[1] - 100* goal[1] - 100*goal[0]
+    return goalA[0] + goalB[1] - 100*goalA[1] - 100*goalB[0]
 
 class bucketbrigade(object):
     def __init__(self):
@@ -55,10 +66,11 @@ class bucketbrigade(object):
         close_branch(closedA, edges_b)
         edges_m  = np.array([self.merges[i][j] for i,j in enumerate(action_m)])
         close_merge( closedA, edges_m)
-        is_stop   = np.dot(now_state, closedA.T)
-        stop_part = now_state * is_stop
+        is_stop   = np.sum(np.dot(now_state, closedA.T), axis=0) > 0
+        stop_part = np.where(is_stop, now_state, 0)
         move_part = now_state - stop_part
         next_state = np.dot(move_part, closedA) + stop_part
+        next_state = entry_box(next_state)
         reward   = calc_reward(next_state)
         terminal = True
         self.state = next_state
@@ -78,7 +90,7 @@ if __name__ == '__main__':
     env = bucketbrigade()
     env.reset()
     action=[1,1,1,1,1,1]
-    for i in range(2):
+    for i in range(50):
         no = '000' + str(i)
         no = no[-2:]
         env.make_image(output='graph_'+no)
