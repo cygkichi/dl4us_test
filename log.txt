@@ -1,0 +1,7 @@
+2018-09-24 15:12:03.158722: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-09-24 15:12:03.213150: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-09-24 15:12:03.213415: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GRID K520 major: 3 minor: 0 memoryClockRate(GHz): 0.797
+pciBusID: 0000:00:03.0
+totalMemory: 3.94GiB freeMemory: 3.88GiB
+2018-09-24 15:12:03.213445: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0, compute capability: 3.0)
