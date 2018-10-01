@@ -1,8 +1,8 @@
 import numpy as np
 import networkx as nx
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-import matplotlib.animation as animation
+#import matplotlib.pyplot as plt
+#import matplotlib.cm as cm
+#eimport matplotlib.animation as animation
 from graphviz import Digraph
 
 def onehot(n, i):
@@ -49,7 +49,7 @@ py = np.array([ 0 , 0, 0, 0, 0, 0, 1, 2, 3, 4,\
 
 class AGVSimulator(object):
     def __init__(self):
-        self.n_agvs  = 2
+        self.n_agvs  = 5
         self.t_cargo = 2
         self.setup_network()
 
@@ -129,6 +129,7 @@ class AGVSimulator(object):
                 next_state[4,19] = 1
         self.state = next_state
         reward = 0
+        terminal = 0
         if self.state[1,28]==1:
             reward += 10
             self.state[0,28] = 1
@@ -137,8 +138,9 @@ class AGVSimulator(object):
             reward += 10
             self.state[0,40] = 1
             self.state[2,40] = 0
-        terminal = 1
-        return next_state, reward, terminal, 1
+        #if (self.state[2,28]==1) or (self.state[1,40]==1):
+        #    terminal=1
+        return next_state, reward, terminal, 0
 
 
 if __name__ == '__main__':

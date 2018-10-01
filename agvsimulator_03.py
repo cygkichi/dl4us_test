@@ -1,8 +1,8 @@
 import numpy as np
 import networkx as nx
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-import matplotlib.animation as animation
+#import matplotlib.pyplot as plt
+#import matplotlib.cm as cm
+#import matplotlib.animation as animation
 from graphviz import Digraph
 
 def onehot(n, i):
@@ -109,10 +109,10 @@ class AGVSimulator(object):
         next_state = np.vstack([next_agv, now_state[self.t_cargo+1:]])
         next_state  = pick_cargo(next_state)
         if np.all(next_state[:,30] == 0):
-            if np.random.rand() < 0.05:
+            if np.random.rand() < 0.1:
                 next_state[3,30] = 1
         if np.all(next_state[:,33] == 0):
-            if np.random.rand() < 0.05:
+            if np.random.rand() < 0.1:
                 next_state[4,33] = 1
         self.state = next_state
         reward = 0
@@ -124,7 +124,7 @@ class AGVSimulator(object):
             reward += 10
             self.state[0,14] = 1
             self.state[2,14] = 0
-        terminal = 1
+        terminal = 0
         return next_state, reward, terminal, 1
 
 
