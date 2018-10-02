@@ -20,7 +20,7 @@ def close_branch(A, edges):
 def pick_cargo(state):
     new_state = []
     for i,s in enumerate(state.T):
-        if (s[0]==1) and np.all(s[1:3]==0) and np.any(s[3:]==1):
+        if (s[0]>0) and np.all(s[1:3]==0) and np.any(s[3:]>0):
             ns = [0] + list(s[3:]) + list(s[3:]*0)
         else:
             ns = list(s)
@@ -47,7 +47,7 @@ py = np.array([ 0 , 0, 0, 0, 0, 0, 0, 0, 0, 0,\
 
 class AGVSimulator(object):
     def __init__(self):
-        self.n_agvs  = 5
+        self.n_agvs  = 10
         self.t_cargo = 2
         self.setup_network()
 
@@ -91,12 +91,13 @@ class AGVSimulator(object):
         for i in range(n_step):
             action = np.random.randint(2,size=len(self.n_actions))
             self.step(action)
-            nodes = (np.argmax(self.state, axis=0)+1)*np.sum(self.state,axis=0)
+            s = np.clip(self.state,0,1)
+            nodes = (np.argmax(s, axis=0)+1)*np.sum(s,axis=0)
             ax = plt.gca()
             ax.patch.set_facecolor('black')
             im = ax.scatter(px, py, c=nodes, marker='s',cmap=cm.hsv, vmax=6)
             ims.append([im])
-        ani = animation.ArtistAnimation(fig, ims, interval=200)
+        ani = animation.ArtistAnimation(fig, ims, interval=50)
         plt.show()
 
 
@@ -123,17 +124,22 @@ class AGVSimulator(object):
         if np.all(next_state[:,53] == 0):
             if np.random.rand() < 0.1:
                 next_state[4,53] = 1
+        next_state = np.vstack([next_state[0],(next_state[1:]>0)*(next_state[1:]+1)])
         self.state = next_state
         reward = 0
-        if self.state[1,30]==1:
-            reward += 10
+        terminal = 0
+        if self.state[1,30]>0:
+            print(self.state[1,30])
+            reward += 100 - self.state[1,30]
             self.state[0,30] = 1
             self.state[1,30] = 0
-        if self.state[2,75]==1:
-            reward += 10
+        if self.state[2,75]>0:
+            print(self.state[2,75])
+            reward += 100 - self.state[2,75]
             self.state[0,75] = 1
             self.state[2,75] = 0
-        terminal = 0
+        if np.max(self.state[1:]) > 100:
+            terminal = 1
         return next_state, reward, terminal, 1
 
 
