@@ -13,8 +13,8 @@ from agvsimulator_03 import *
 
 def build_mlp():
     model = Sequential()
-    model.add(Dense(40, activation='relu', input_shape=(190,)))
-    model.add(Dense(4))
+    model.add(Dense(40, activation='relu', input_shape=(405,)))
+    model.add(Dense(8))
     model.compile(RMSprop(), 'mse')
     return model
 
@@ -51,20 +51,21 @@ def copy_weights(model_original, model_target):
 #学習を始める前にランダムに行動した履歴をメモリに事前にためておきます.
 memory_size = 10**6 # 10**6
 initial_memory_size = 1000 # 50000
-n_actions = 4
+n_actions = 8
 env = AGVSimulator()
 replay_memory = ReplayMemory(memory_size)
 
 step = 0    
-n_steps = 300
+n_steps = 1000
 while True:
     state = env.reset().flatten()
     terminal = False
 
     while not terminal:
         action = np.random.randint(0, n_actions)
-        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-2:]])
-        next_state = next_state.flatten()
+        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-3:]])
+        next_state = np.clip(next_state.flatten(),0,1)
+        #next_state = next_state.flatten()
         reward = np.sign(reward)
         transition = {
             'state': state,
@@ -95,8 +96,8 @@ eps_end = 0.01
 
 gamma = 0.99
 target_update_interval = 10
-batch_size = 32
-n_episodes = 300
+batch_size = 320
+n_episodes = 3000
 
 def get_eps(step):
     return max(eps_end, (eps_end - eps_start)/n_steps * step + eps_start)
@@ -132,8 +133,9 @@ for episode in range(n_episodes):
             action = np.random.randint(0, n_actions)
         else:
             action = np.argmax(q)
-        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-2:]])
-        next_state = next_state.flatten()
+        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-3:]])
+        next_state = np.clip(next_state.flatten(),0,1)
+        #next_state = next_state.flatten()
         #reward = np.sign(reward)
         total_reward += reward
         #sprint(episode,step,total_reward,reward)
@@ -152,8 +154,9 @@ for episode in range(n_episodes):
         if step > n_steps:
             terminal = 1
         step += 1
+#        print(step,'step')
     if (episode + 1) % 1 == 0:
-        print('Episode: {}, Reward: {}, Q_max: {:.4f}, eps: {:.4f}'.format(episode + 1, total_reward, np.mean(total_q_max), eps))
+        print('Episode: {}, Reward: {}, Q_max: {:.4f}, eps: {:.4f}, total_step: {}'.format(episode + 1, total_reward, np.mean(total_q_max), eps, step))
 
 def test(N=100):
     state = env.reset()
@@ -164,8 +167,9 @@ def test(N=100):
         q = model.predict(state.flatten()[None]).flatten()
         action = np.argmax(q)
         print(env.state, action)
-        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-2:]])
-        next_state = next_state.flatten()
+        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-3:]])
+        next_state = np.clip(next_state.flatten(),0,1)
+        #next_state = next_state.flatten()
         total_reward += reward
         state = next_state
     print(total_reward)

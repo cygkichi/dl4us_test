@@ -1,8 +1,8 @@
 import numpy as np
 import networkx as nx
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-import matplotlib.animation as animation
+#import matplotlib.pyplot as plt
+#import matplotlib.cm as cm
+#import matplotlib.animation as animation
 from graphviz import Digraph
 
 def onehot(n, i):
@@ -47,7 +47,7 @@ py = np.array([ 0 , 0, 0, 0, 0, 0, 0, 0, 0, 0,\
 
 class AGVSimulator(object):
     def __init__(self):
-        self.n_agvs  = 10
+        self.n_agvs  = 5
         self.t_cargo = 2
         self.setup_network()
 
@@ -110,11 +110,11 @@ class AGVSimulator(object):
         close_branch(closedA, edges_b)
         edges_m  = np.array([self.merges[i][j] for i,j in enumerate(action_m)])
         close_merge( closedA, edges_m)
-        is_fill_agv = np.sum(self.state[:self.t_cargo+1], axis=0)>0
+        is_fill_agv = np.max(self.state[:self.t_cargo+1], axis=0)>0
         is_stop = np.dot(is_fill_agv, closedA.T)
-        is_stop = np.clip(1- now_state[:self.t_cargo+1] + is_stop,0,1)
+        is_stop = np.clip(1- np.clip(now_state[:self.t_cargo+1],0,1) + is_stop,0,1)
         stop_agv = now_state[:self.t_cargo+1] * is_stop
-        move_agv = now_state[:self.t_cargo+1] - stop_agv
+        move_agv = now_state[:self.t_cargo+1] * (1-is_stop)# stop_agv
         next_agv = np.dot(move_agv, closedA) + stop_agv
         next_state = np.vstack([next_agv, now_state[self.t_cargo+1:]])
         next_state  = pick_cargo(next_state)
@@ -129,16 +129,18 @@ class AGVSimulator(object):
         reward = 0
         terminal = 0
         if self.state[1,30]>0:
-            print(self.state[1,30])
-            reward += 100 - self.state[1,30]
+            print(self.state[1,30],'goal1')
+            reward += 1 #00 - self.state[1,30]
             self.state[0,30] = 1
             self.state[1,30] = 0
         if self.state[2,75]>0:
-            print(self.state[2,75])
-            reward += 100 - self.state[2,75]
+            print(self.state[2,75],'goal2')
+            reward += 1 #00 - self.state[2,75]
             self.state[0,75] = 1
             self.state[2,75] = 0
-        if np.max(self.state[1:]) > 100:
+#        print(np.max(self.state[1:]),'max')
+#print(self.state)
+        if np.max(self.state[1:]) > 300:
             terminal = 1
         return next_state, reward, terminal, 1
 
