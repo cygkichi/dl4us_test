@@ -1,8 +1,8 @@
 import numpy as np
 import networkx as nx
-#import matplotlib.pyplot as plt
-#import matplotlib.cm as cm
-#import matplotlib.animation as animation
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+import matplotlib.animation as animation
 from graphviz import Digraph
 
 def onehot(n, i):
@@ -29,25 +29,34 @@ def pick_cargo(state):
 
 
 px = np.array([ 0 , 1, 2, 3, 4, 5, 6, 7, 8, 9,\
-                10,11,12,12,12,12,12,11,10, 9,\
-                8 , 7, 6, 5, 4, 3, 2, 1, 0, 0,\
-                0 , 0, 4, 4, 4, 8, 8, 8])
+                10,11,12,12,12,12,12,12,12,12,\
+                12,12,12,12,12,11,10, 9, 8, 7,\
+                6 , 5, 4, 3, 2, 1, 0, 0, 0, 0,\
+                0 , 0, 0, 0, 0, 0, 0, 0, 1, 2,\
+                3 , 4, 5, 6, 7, 8, 9,10,11,11,\
+                10, 9, 8, 7, 6, 5, 4, 3, 2, 1,\
+                11,10, 9, 8, 7, 6, 5, 4, 3, 2, 1])
 py = np.array([ 0 , 0, 0, 0, 0, 0, 0, 0, 0, 0,\
-                0 , 0, 0, 1, 2, 3, 4, 4, 4, 4,\
-                4 , 4, 4, 4, 4, 4, 4, 4, 4, 3,\
-                2 , 1, 1, 2, 3, 1, 2, 3])
+                0 , 0, 0, 1, 2, 3, 4, 5, 6, 7,\
+                8 , 9,10,11,12,12,12,12,12,12,\
+                12,12,12,12,12,12,12,11,10, 9,\
+                8 , 7, 6, 5, 4, 3, 2, 1, 2, 2,\
+                2 , 2, 2, 2, 2, 2, 2, 2, 2, 8,\
+                8 , 8, 8, 8, 8, 8, 8, 8, 8, 8,\
+                10,10,10,10,10,10,10,10,10,10,10])
 
 class AGVSimulator(object):
     def __init__(self):
-        self.n_agvs  = 2
+        self.n_agvs  = 5
         self.t_cargo = 2
         self.setup_network()
 
     def setup_network(self):
         G = nx.DiGraph()
-        G.add_path(list(range( 0,32)) + [0] )
-        G.add_path([ 4,32,33,34,24])
-        G.add_path([ 8,35,36,37,20])
+        G.add_path(list(range( 0,48)) + [0] )
+        G.add_path([46] + list(range(48,59)) + [14])
+        G.add_path([20] + list(range(59,70)) + [40])
+        G.add_path([22] + list(range(70,81)) + [38])
         self.G = G
         N = G.number_of_nodes()
         self.n_nodes = N
@@ -108,22 +117,22 @@ class AGVSimulator(object):
         next_agv = np.dot(move_agv, closedA) + stop_agv
         next_state = np.vstack([next_agv, now_state[self.t_cargo+1:]])
         next_state  = pick_cargo(next_state)
-        if np.all(next_state[:,30] == 0):
+        if np.all(next_state[:,6] == 0):
             if np.random.rand() < 0.1:
-                next_state[3,30] = 1
-        if np.all(next_state[:,33] == 0):
+                next_state[3,6] = 1
+        if np.all(next_state[:,53] == 0):
             if np.random.rand() < 0.1:
-                next_state[4,33] = 1
+                next_state[4,53] = 1
         self.state = next_state
         reward = 0
-        if self.state[1,36]==1:
+        if self.state[1,30]==1:
             reward += 10
-            self.state[0,36] = 1
-            self.state[1,36] = 0
-        if self.state[2,14]==1:
+            self.state[0,30] = 1
+            self.state[1,30] = 0
+        if self.state[2,75]==1:
             reward += 10
-            self.state[0,14] = 1
-            self.state[2,14] = 0
+            self.state[0,75] = 1
+            self.state[2,75] = 0
         terminal = 0
         return next_state, reward, terminal, 1
 
