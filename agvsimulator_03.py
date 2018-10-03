@@ -47,17 +47,17 @@ py = np.array([ 0 , 0, 0, 0, 0, 0, 0, 0, 0, 0,\
 
 class AGVSimulator(object):
     def __init__(self):
-        self.n_agvs  = 2
+        self.n_agvs  = 5
         self.t_cargo = 2
         self.setup_network()
 
     def setup_network(self):
         G = nx.DiGraph()
         G.add_path(list(range( 0,48)) + [0] )
-#        G.add_path([46] + list(range(48,59)) + [14])
-        G.add_path(list(range(48,59)) )
-#        G.add_path([20] + list(range(59,70)) + [40])
-        G.add_path(list(range(59,70)))
+        G.add_path([46] + list(range(48,59)) + [14])
+        G.add_path(list(range(48,59)) + [14])
+        G.add_path([20] + list(range(59,70)) + [40])
+#        G.add_path(list(range(59,70)) + [40])
         G.add_path([22] + list(range(70,81)) + [38])
         self.G = G
         N = G.number_of_nodes()
@@ -121,32 +121,35 @@ class AGVSimulator(object):
         next_state = np.vstack([next_agv, now_state[self.t_cargo+1:]])
         next_state  = pick_cargo(next_state)
         if np.all(next_state[:,6] == 0):
-            if np.random.rand() < 0.9:
+            if np.random.rand() < 0.1:
                 next_state[3,6] = 1
-            else:
-                next_state[4,6] = 1
+        if np.all(next_state[:,53] == 0):
+            if np.random.rand() < 0.1:
+                next_state[4,53] = 1
         next_state = np.vstack([next_state[0],(next_state[1:]>0)*(next_state[1:]+1)])
         self.state = next_state
         reward = 0
         terminal = 0
         if self.state[1,23]>0:
-            print(self.state[1,23],'goal1')
+#            print(self.state[1,23],'goal1')
             reward += 1 #00 - self.state[1,30]
             self.state[0,23] = 1
             self.state[1,23] = 0
             #terminal = 1
         if self.state[2,70]>0:
-            print(self.state[2,70],'goal2')
+#            print(self.state[2,70],'goal2')
             reward += 1 #00 - self.state[2,75]
             self.state[0,70] = 1
-            self.state[2,70] = 1
+            self.state[2,70] = 0
+            
+            
             #terminal = 1
         if self.state[2,23]>0:
-            reward += -1
+            termianl = 1
         if self.state[1,70]>0:
-            reward += -1
+            terminal = 1
             
-        print(self.state)
+#        print(self.state)]
 #        print(np.max(self.state[1:]),'max')
 #print(self.state)
 #        if np.max(self.state[1:]) > 300:
