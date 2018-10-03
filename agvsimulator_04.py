@@ -1,8 +1,8 @@
 import numpy as np
 import networkx as nx
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-import matplotlib.animation as animation
+#import matplotlib.pyplot as plt
+#import matplotlib.cm as cm
+#import matplotlib.animation as animation
 from graphviz import Digraph
 
 def onehot(n, i):
@@ -50,7 +50,7 @@ goal_nodes =[76, 28]
 
 class AGVSimulator(object):
     def __init__(self):
-        self.n_agvs  = 5
+        self.n_agvs  = 10
         self.t_cargo = 2
         self.setup_network()
 
@@ -60,6 +60,11 @@ class AGVSimulator(object):
         G.add_path([54] + list(range(56,61)) + [ 4])
         G.add_path([22] + list(range(61,74)) + [48])
         G.add_path([24] + list(range(74,80)) + [31])
+        G.add_path([33] + list(range(80,85)) + [65])
+        G.add_path([33] + list(range(80,85)) + [65])
+        G.add_path([69] + list(range(85,90)) + [37])
+        G.add_path([63] + list(range(90,97)) + [11])
+        G.add_path([92] + list(range(97,99)) + [19])
         self.G = G
         N = G.number_of_nodes()
         self.n_nodes = N
@@ -153,8 +158,8 @@ class AGVSimulator(object):
 #        print(self.state)]
 #        print(np.max(self.state[1:]),'max')
 #print(self.state)
-#        if np.max(self.state[1:]) > 300:
-#            terminal = 1
+        if np.max(self.state[1:]) > 100:
+            terminal = 1
         return next_state, reward, terminal, 1
 
 
