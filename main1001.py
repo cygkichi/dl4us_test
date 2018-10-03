@@ -13,8 +13,8 @@ from agvsimulator_03 import *
 
 def build_mlp():
     model = Sequential()
-    model.add(Dense(40, activation='relu', input_shape=(405,)))
-    model.add(Dense(8))
+    model.add(Dense(100, activation='relu', input_shape=(405,)))
+    model.add(Dense(2))
     model.compile(RMSprop(), 'mse')
     return model
 
@@ -51,7 +51,7 @@ def copy_weights(model_original, model_target):
 #学習を始める前にランダムに行動した履歴をメモリに事前にためておきます.
 memory_size = 10**6 # 10**6
 initial_memory_size = 1000 # 50000
-n_actions = 8
+n_actions = 2
 env = AGVSimulator()
 replay_memory = ReplayMemory(memory_size)
 
@@ -63,7 +63,7 @@ while True:
 
     while not terminal:
         action = np.random.randint(0, n_actions)
-        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-3:]])
+        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-1:]])
         next_state = np.clip(next_state.flatten(),0,1)
         #next_state = next_state.flatten()
         reward = np.sign(reward)
@@ -92,12 +92,12 @@ while True:
 model = build_mlp()
 model_target = build_mlp()
 eps_start = 1.0
-eps_end = 0.01
+eps_end = 0.2
 
-gamma = 0.99
+gamma = 0.1
 target_update_interval = 10
-batch_size = 320
-n_episodes = 3000
+batch_size = 32
+n_episodes = 1000
 
 def get_eps(step):
     return max(eps_end, (eps_end - eps_start)/n_steps * step + eps_start)
@@ -133,7 +133,7 @@ for episode in range(n_episodes):
             action = np.random.randint(0, n_actions)
         else:
             action = np.argmax(q)
-        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-3:]])
+        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-1:]])
         next_state = np.clip(next_state.flatten(),0,1)
         #next_state = next_state.flatten()
         #reward = np.sign(reward)
@@ -167,7 +167,7 @@ def test(N=100):
         q = model.predict(state.flatten()[None]).flatten()
         action = np.argmax(q)
         print(env.state, action)
-        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-3:]])
+        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-1:]])
         next_state = np.clip(next_state.flatten(),0,1)
         #next_state = next_state.flatten()
         total_reward += reward
