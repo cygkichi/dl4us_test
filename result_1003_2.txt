@@ -1,0 +1,2000 @@
+Episode: 1, Reward: 3, Q_max: 0.6174, eps: 0.8976, total_step: 129
+total_reward:  4  total_step:  125
+Episode: 2, Reward: 2, Q_max: 1.6323, eps: 0.9168, total_step: 105
+total_reward:  3  total_step:  133
+Episode: 3, Reward: 3, Q_max: 2.5399, eps: 0.9192, total_step: 102
+total_reward:  2  total_step:  126
+Episode: 4, Reward: 3, Q_max: 3.1853, eps: 0.9056, total_step: 119
+total_reward:  5  total_step:  154
+Episode: 5, Reward: 2, Q_max: 3.6509, eps: 0.9152, total_step: 107
+total_reward:  3  total_step:  108
+Episode: 6, Reward: 1, Q_max: 4.2409, eps: 0.9184, total_step: 103
+total_reward:  0  total_step:  102
+Episode: 7, Reward: 3, Q_max: 4.3303, eps: 0.9104, total_step: 113
+total_reward:  0  total_step:  106
+Episode: 8, Reward: 1, Q_max: 4.2275, eps: 0.9192, total_step: 102
+total_reward:  4  total_step:  128
+Episode: 9, Reward: 2, Q_max: 4.2933, eps: 0.9136, total_step: 109
+total_reward:  1  total_step:  100
+Episode: 10, Reward: 0, Q_max: 4.2642, eps: 0.9200, total_step: 101
+total_reward:  3  total_step:  102
+Episode: 11, Reward: 4, Q_max: 4.3616, eps: 0.9080, total_step: 116
+total_reward:  4  total_step:  101
+Episode: 12, Reward: 4, Q_max: 4.5333, eps: 0.9184, total_step: 103
+total_reward:  2  total_step:  101
+Episode: 13, Reward: 1, Q_max: 4.3548, eps: 0.9176, total_step: 104
+total_reward:  0  total_step:  100
+Episode: 14, Reward: 0, Q_max: 4.2998, eps: 0.9104, total_step: 113
+total_reward:  4  total_step:  151
+Episode: 15, Reward: 2, Q_max: 4.3596, eps: 0.9152, total_step: 107
+total_reward:  1  total_step:  108
+Episode: 16, Reward: 0, Q_max: 4.5510, eps: 0.9208, total_step: 100
+total_reward:  2  total_step:  103
+Episode: 17, Reward: 4, Q_max: 4.4435, eps: 0.9096, total_step: 114
+total_reward:  0  total_step:  101
+Episode: 18, Reward: 2, Q_max: 4.6127, eps: 0.9152, total_step: 107
+total_reward:  2  total_step:  108
+Episode: 19, Reward: 1, Q_max: 4.8275, eps: 0.9200, total_step: 101
+total_reward:  2  total_step:  115
+Episode: 20, Reward: 2, Q_max: 4.6194, eps: 0.9160, total_step: 106
+total_reward:  1  total_step:  133
+Episode: 21, Reward: 0, Q_max: 4.6458, eps: 0.9200, total_step: 101
+total_reward:  1  total_step:  105
+Episode: 22, Reward: 1, Q_max: 4.7082, eps: 0.9048, total_step: 120
+total_reward:  3  total_step:  102
+Episode: 23, Reward: 1, Q_max: 4.8815, eps: 0.9048, total_step: 120
+total_reward:  0  total_step:  103
+Episode: 24, Reward: 3, Q_max: 4.9480, eps: 0.9160, total_step: 106
+total_reward:  1  total_step:  101
+Episode: 25, Reward: 0, Q_max: 4.8363, eps: 0.9080, total_step: 116
+total_reward:  4  total_step:  139
+Episode: 26, Reward: 5, Q_max: 4.8505, eps: 0.8920, total_step: 136
+total_reward:  2  total_step:  103
+Episode: 27, Reward: 1, Q_max: 4.6768, eps: 0.9200, total_step: 101
+total_reward:  1  total_step:  104
+Episode: 28, Reward: 2, Q_max: 4.7454, eps: 0.9000, total_step: 126
+total_reward:  0  total_step:  102
+Episode: 29, Reward: 5, Q_max: 4.8612, eps: 0.8960, total_step: 131
+total_reward:  4  total_step:  120
+Episode: 30, Reward: 4, Q_max: 4.8766, eps: 0.9168, total_step: 105
+total_reward:  0  total_step:  101
+Episode: 31, Reward: 3, Q_max: 4.8185, eps: 0.9072, total_step: 117
+total_reward:  2  total_step:  120
+Episode: 32, Reward: 2, Q_max: 4.9228, eps: 0.9200, total_step: 101
+total_reward:  2  total_step:  100
+Episode: 33, Reward: 2, Q_max: 5.0612, eps: 0.9112, total_step: 112
+total_reward:  3  total_step:  118
+Episode: 34, Reward: 1, Q_max: 4.6724, eps: 0.9168, total_step: 105
+total_reward:  4  total_step:  119
+Episode: 35, Reward: 6, Q_max: 4.9008, eps: 0.8848, total_step: 145
+total_reward:  3  total_step:  100
+Episode: 36, Reward: 1, Q_max: 4.9991, eps: 0.9144, total_step: 108
+total_reward:  2  total_step:  112
+Episode: 37, Reward: 4, Q_max: 5.1699, eps: 0.8784, total_step: 153
+total_reward:  1  total_step:  113
+Episode: 38, Reward: 1, Q_max: 4.9006, eps: 0.9152, total_step: 107
+total_reward:  4  total_step:  123
+Episode: 39, Reward: 1, Q_max: 4.9022, eps: 0.9192, total_step: 102
+total_reward:  0  total_step:  103
+Episode: 40, Reward: 0, Q_max: 4.9562, eps: 0.9200, total_step: 101
+total_reward:  3  total_step:  106
+Episode: 41, Reward: 3, Q_max: 5.0225, eps: 0.9200, total_step: 101
+total_reward:  3  total_step:  105
+Episode: 42, Reward: 0, Q_max: 5.0558, eps: 0.9160, total_step: 106
+total_reward:  5  total_step:  119
+Episode: 43, Reward: 6, Q_max: 5.2433, eps: 0.8960, total_step: 131
+total_reward:  2  total_step:  107
+Episode: 44, Reward: 3, Q_max: 5.2493, eps: 0.9064, total_step: 118
+total_reward:  6  total_step:  147
+Episode: 45, Reward: 1, Q_max: 5.3196, eps: 0.9120, total_step: 111
+total_reward:  4  total_step:  109
+Episode: 46, Reward: 7, Q_max: 5.2440, eps: 0.9016, total_step: 124
+total_reward:  2  total_step:  101
+Episode: 47, Reward: 4, Q_max: 5.1513, eps: 0.9120, total_step: 111
+total_reward:  5  total_step:  104
+Episode: 48, Reward: 0, Q_max: 5.2701, eps: 0.9120, total_step: 111
+total_reward:  3  total_step:  120
+Episode: 49, Reward: 1, Q_max: 5.2321, eps: 0.9208, total_step: 100
+total_reward:  1  total_step:  128
+Episode: 50, Reward: 1, Q_max: 5.3640, eps: 0.9120, total_step: 111
+total_reward:  1  total_step:  109
+Episode: 51, Reward: 1, Q_max: 5.3992, eps: 0.9152, total_step: 107
+total_reward:  3  total_step:  102
+Episode: 52, Reward: 1, Q_max: 5.5426, eps: 0.9184, total_step: 103
+total_reward:  0  total_step:  105
+Episode: 53, Reward: 1, Q_max: 5.5202, eps: 0.9176, total_step: 104
+total_reward:  4  total_step:  105
+Episode: 54, Reward: 1, Q_max: 5.8892, eps: 0.9152, total_step: 107
+total_reward:  3  total_step:  101
+Episode: 55, Reward: 1, Q_max: 5.6810, eps: 0.9160, total_step: 106
+total_reward:  4  total_step:  118
+Episode: 56, Reward: 0, Q_max: 5.8544, eps: 0.9184, total_step: 103
+total_reward:  2  total_step:  101
+Episode: 57, Reward: 4, Q_max: 5.8328, eps: 0.8864, total_step: 143
+total_reward:  4  total_step:  133
+Episode: 58, Reward: 1, Q_max: 5.6535, eps: 0.9208, total_step: 100
+total_reward:  1  total_step:  100
+Episode: 59, Reward: 5, Q_max: 6.0852, eps: 0.8728, total_step: 160
+total_reward:  5  total_step:  121
+Episode: 60, Reward: 2, Q_max: 6.0702, eps: 0.8912, total_step: 137
+total_reward:  2  total_step:  114
+Episode: 61, Reward: 3, Q_max: 5.9622, eps: 0.9176, total_step: 104
+total_reward:  6  total_step:  120
+Episode: 62, Reward: 3, Q_max: 6.1309, eps: 0.9104, total_step: 113
+total_reward:  2  total_step:  108
+Episode: 63, Reward: 2, Q_max: 6.0044, eps: 0.9176, total_step: 104
+total_reward:  4  total_step:  102
+Episode: 64, Reward: 3, Q_max: 6.0908, eps: 0.9208, total_step: 100
+total_reward:  2  total_step:  102
+Episode: 65, Reward: 3, Q_max: 5.9602, eps: 0.9184, total_step: 103
+total_reward:  0  total_step:  101
+Episode: 66, Reward: 6, Q_max: 6.2011, eps: 0.8864, total_step: 143
+total_reward:  4  total_step:  104
+Episode: 67, Reward: 8, Q_max: 6.4386, eps: 0.8504, total_step: 188
+total_reward:  4  total_step:  105
+Episode: 68, Reward: 1, Q_max: 6.1548, eps: 0.9200, total_step: 101
+total_reward:  2  total_step:  109
+Episode: 69, Reward: 0, Q_max: 6.3683, eps: 0.9184, total_step: 103
+total_reward:  1  total_step:  107
+Episode: 70, Reward: 3, Q_max: 6.4718, eps: 0.9192, total_step: 102
+total_reward:  3  total_step:  104
+Episode: 71, Reward: 2, Q_max: 6.4099, eps: 0.9096, total_step: 114
+total_reward:  6  total_step:  157
+Episode: 72, Reward: 1, Q_max: 6.5299, eps: 0.9136, total_step: 109
+total_reward:  7  total_step:  140
+Episode: 73, Reward: 1, Q_max: 6.5395, eps: 0.9208, total_step: 100
+total_reward:  4  total_step:  117
+Episode: 74, Reward: 1, Q_max: 6.5726, eps: 0.9192, total_step: 102
+total_reward:  1  total_step:  103
+Episode: 75, Reward: 5, Q_max: 6.7061, eps: 0.8680, total_step: 166
+total_reward:  3  total_step:  111
+Episode: 76, Reward: 2, Q_max: 6.9114, eps: 0.9024, total_step: 123
+total_reward:  2  total_step:  103
+Episode: 77, Reward: 0, Q_max: 6.6806, eps: 0.9160, total_step: 106
+total_reward:  3  total_step:  104
+Episode: 78, Reward: 5, Q_max: 6.6389, eps: 0.8872, total_step: 142
+total_reward:  2  total_step:  105
+Episode: 79, Reward: 2, Q_max: 6.6537, eps: 0.9176, total_step: 104
+total_reward:  5  total_step:  124
+Episode: 80, Reward: 1, Q_max: 6.8734, eps: 0.9120, total_step: 111
+total_reward:  3  total_step:  101
+Episode: 81, Reward: 1, Q_max: 6.7708, eps: 0.9184, total_step: 103
+total_reward:  9  total_step:  168
+Episode: 82, Reward: 1, Q_max: 6.9094, eps: 0.9160, total_step: 106
+total_reward:  3  total_step:  101
+Episode: 83, Reward: 2, Q_max: 6.9113, eps: 0.9200, total_step: 101
+total_reward:  6  total_step:  149
+Episode: 84, Reward: 3, Q_max: 6.8949, eps: 0.9120, total_step: 111
+total_reward:  2  total_step:  113
+Episode: 85, Reward: 3, Q_max: 7.2193, eps: 0.9168, total_step: 105
+total_reward:  2  total_step:  100
+Episode: 86, Reward: 3, Q_max: 7.0142, eps: 0.9064, total_step: 118
+total_reward:  5  total_step:  129
+Episode: 87, Reward: 2, Q_max: 7.1892, eps: 0.9184, total_step: 103
+total_reward:  6  total_step:  138
+Episode: 88, Reward: 2, Q_max: 6.9985, eps: 0.9128, total_step: 110
+total_reward:  1  total_step:  106
+Episode: 89, Reward: 1, Q_max: 7.1704, eps: 0.9168, total_step: 105
+total_reward:  9  total_step:  132
+Episode: 90, Reward: 2, Q_max: 7.4611, eps: 0.9096, total_step: 114
+total_reward:  3  total_step:  104
+Episode: 91, Reward: 4, Q_max: 7.3519, eps: 0.9080, total_step: 116
+total_reward:  1  total_step:  100
+Episode: 92, Reward: 4, Q_max: 7.4326, eps: 0.9120, total_step: 111
+total_reward:  4  total_step:  134
+Episode: 93, Reward: 3, Q_max: 7.2068, eps: 0.9040, total_step: 121
+total_reward:  4  total_step:  115
+Episode: 94, Reward: 5, Q_max: 7.3712, eps: 0.9128, total_step: 110
+total_reward:  2  total_step:  101
+Episode: 95, Reward: 2, Q_max: 7.3654, eps: 0.9104, total_step: 113
+total_reward:  3  total_step:  124
+Episode: 96, Reward: 0, Q_max: 7.5048, eps: 0.9056, total_step: 119
+total_reward:  3  total_step:  101
+Episode: 97, Reward: 2, Q_max: 7.5494, eps: 0.9208, total_step: 100
+total_reward:  5  total_step:  140
+Episode: 98, Reward: 4, Q_max: 7.6278, eps: 0.9072, total_step: 117
+total_reward:  3  total_step:  108
+Episode: 99, Reward: 7, Q_max: 7.6436, eps: 0.9008, total_step: 125
+total_reward:  4  total_step:  111
+Episode: 100, Reward: 3, Q_max: 7.7035, eps: 0.9192, total_step: 102
+total_reward:  10  total_step:  157
+Episode: 101, Reward: 2, Q_max: 7.5556, eps: 0.9184, total_step: 103
+total_reward:  4  total_step:  100
+Episode: 102, Reward: 0, Q_max: 7.7682, eps: 0.9192, total_step: 102
+total_reward:  4  total_step:  167
+Episode: 103, Reward: 1, Q_max: 7.7171, eps: 0.9208, total_step: 100
+total_reward:  1  total_step:  100
+Episode: 104, Reward: 6, Q_max: 7.8090, eps: 0.8944, total_step: 133
+total_reward:  3  total_step:  104
+Episode: 105, Reward: 1, Q_max: 7.3205, eps: 0.9200, total_step: 101
+total_reward:  4  total_step:  103
+Episode: 106, Reward: 2, Q_max: 7.8387, eps: 0.9072, total_step: 117
+total_reward:  3  total_step:  103
+Episode: 107, Reward: 2, Q_max: 7.5758, eps: 0.9192, total_step: 102
+total_reward:  4  total_step:  126
+Episode: 108, Reward: 2, Q_max: 7.8455, eps: 0.9168, total_step: 105
+total_reward:  3  total_step:  103
+Episode: 109, Reward: 0, Q_max: 7.8654, eps: 0.9200, total_step: 101
+total_reward:  6  total_step:  145
+Episode: 110, Reward: 1, Q_max: 7.7221, eps: 0.9208, total_step: 100
+total_reward:  4  total_step:  108
+Episode: 111, Reward: 0, Q_max: 7.7888, eps: 0.9192, total_step: 102
+total_reward:  3  total_step:  113
+Episode: 112, Reward: 3, Q_max: 7.9083, eps: 0.9200, total_step: 101
+total_reward:  7  total_step:  137
+Episode: 113, Reward: 3, Q_max: 8.0218, eps: 0.8840, total_step: 146
+total_reward:  17  total_step:  308
+Episode: 114, Reward: 1, Q_max: 7.8999, eps: 0.9152, total_step: 107
+total_reward:  13  total_step:  187
+Episode: 115, Reward: 0, Q_max: 8.0182, eps: 0.9152, total_step: 107
+total_reward:  10  total_step:  190
+Episode: 116, Reward: 1, Q_max: 8.0756, eps: 0.9200, total_step: 101
+total_reward:  3  total_step:  120
+Episode: 117, Reward: 3, Q_max: 8.0751, eps: 0.8840, total_step: 146
+total_reward:  5  total_step:  104
+Episode: 118, Reward: 1, Q_max: 7.9468, eps: 0.9208, total_step: 100
+total_reward:  6  total_step:  149
+Episode: 119, Reward: 1, Q_max: 7.9152, eps: 0.9144, total_step: 108
+total_reward:  15  total_step:  244
+Episode: 120, Reward: 5, Q_max: 8.1586, eps: 0.8840, total_step: 146
+total_reward:  2  total_step:  168
+Episode: 121, Reward: 2, Q_max: 8.0078, eps: 0.9192, total_step: 102
+total_reward:  7  total_step:  130
+Episode: 122, Reward: 2, Q_max: 8.1269, eps: 0.9144, total_step: 108
+total_reward:  8  total_step:  158
+Episode: 123, Reward: 5, Q_max: 8.4706, eps: 0.9048, total_step: 120
+total_reward:  3  total_step:  103
+Episode: 124, Reward: 0, Q_max: 8.1901, eps: 0.9120, total_step: 111
+total_reward:  3  total_step:  110
+Episode: 125, Reward: 2, Q_max: 8.1838, eps: 0.9144, total_step: 108
+total_reward:  2  total_step:  100
+Episode: 126, Reward: 2, Q_max: 8.4038, eps: 0.9136, total_step: 109
+total_reward:  7  total_step:  129
+Episode: 127, Reward: 3, Q_max: 8.3781, eps: 0.9104, total_step: 113
+total_reward:  3  total_step:  139
+Episode: 128, Reward: 2, Q_max: 8.0954, eps: 0.9200, total_step: 101
+total_reward:  4  total_step:  102
+Episode: 129, Reward: 2, Q_max: 8.4143, eps: 0.9160, total_step: 106
+total_reward:  4  total_step:  104
+Episode: 130, Reward: 1, Q_max: 8.3907, eps: 0.9200, total_step: 101
+total_reward:  2  total_step:  105
+Episode: 131, Reward: 1, Q_max: 8.2905, eps: 0.9152, total_step: 107
+total_reward:  7  total_step:  118
+Episode: 132, Reward: 1, Q_max: 8.4460, eps: 0.9160, total_step: 106
+total_reward:  3  total_step:  112
+Episode: 133, Reward: 2, Q_max: 8.1705, eps: 0.9168, total_step: 105
+total_reward:  3  total_step:  100
+Episode: 134, Reward: 1, Q_max: 8.3372, eps: 0.9208, total_step: 100
+total_reward:  8  total_step:  140
+Episode: 135, Reward: 2, Q_max: 8.2047, eps: 0.9176, total_step: 104
+total_reward:  7  total_step:  131
+Episode: 136, Reward: 2, Q_max: 8.2008, eps: 0.9200, total_step: 101
+total_reward:  4  total_step:  134
+Episode: 137, Reward: 2, Q_max: 8.2604, eps: 0.9192, total_step: 102
+total_reward:  2  total_step:  123
+Episode: 138, Reward: 0, Q_max: 8.4350, eps: 0.9120, total_step: 111
+total_reward:  5  total_step:  109
+Episode: 139, Reward: 3, Q_max: 8.6557, eps: 0.9208, total_step: 100
+total_reward:  0  total_step:  110
+Episode: 140, Reward: 1, Q_max: 8.3732, eps: 0.9168, total_step: 105
+total_reward:  4  total_step:  118
+Episode: 141, Reward: 2, Q_max: 8.7024, eps: 0.9120, total_step: 111
+total_reward:  3  total_step:  101
+Episode: 142, Reward: 1, Q_max: 8.5186, eps: 0.9168, total_step: 105
+total_reward:  4  total_step:  144
+Episode: 143, Reward: 3, Q_max: 8.7029, eps: 0.8896, total_step: 139
+total_reward:  3  total_step:  108
+Episode: 144, Reward: 3, Q_max: 9.1511, eps: 0.9160, total_step: 106
+total_reward:  7  total_step:  119
+Episode: 145, Reward: 0, Q_max: 8.7565, eps: 0.9208, total_step: 100
+total_reward:  5  total_step:  103
+Episode: 146, Reward: 2, Q_max: 8.7373, eps: 0.9208, total_step: 100
+total_reward:  5  total_step:  156
+Episode: 147, Reward: 0, Q_max: 8.8291, eps: 0.9192, total_step: 102
+total_reward:  2  total_step:  106
+Episode: 148, Reward: 1, Q_max: 8.5788, eps: 0.9184, total_step: 103
+total_reward:  4  total_step:  117
+Episode: 149, Reward: 1, Q_max: 8.8478, eps: 0.9144, total_step: 108
+total_reward:  2  total_step:  103
+Episode: 150, Reward: 2, Q_max: 8.7642, eps: 0.9192, total_step: 102
+total_reward:  3  total_step:  103
+Episode: 151, Reward: 2, Q_max: 8.9457, eps: 0.9192, total_step: 102
+total_reward:  11  total_step:  203
+Episode: 152, Reward: 2, Q_max: 8.7313, eps: 0.9144, total_step: 108
+total_reward:  1  total_step:  109
+Episode: 153, Reward: 3, Q_max: 8.7606, eps: 0.9112, total_step: 112
+total_reward:  2  total_step:  101
+Episode: 154, Reward: 1, Q_max: 8.8498, eps: 0.9160, total_step: 106
+total_reward:  2  total_step:  110
+Episode: 155, Reward: 3, Q_max: 8.7354, eps: 0.9088, total_step: 115
+total_reward:  12  total_step:  185
+Episode: 156, Reward: 0, Q_max: 8.7872, eps: 0.9176, total_step: 104
+total_reward:  2  total_step:  100
+Episode: 157, Reward: 2, Q_max: 8.7762, eps: 0.8904, total_step: 138
+total_reward:  3  total_step:  114
+Episode: 158, Reward: 2, Q_max: 8.7686, eps: 0.9128, total_step: 110
+total_reward:  3  total_step:  101
+Episode: 159, Reward: 2, Q_max: 8.8227, eps: 0.9176, total_step: 104
+total_reward:  6  total_step:  164
+Episode: 160, Reward: 1, Q_max: 8.8839, eps: 0.9208, total_step: 100
+total_reward:  6  total_step:  156
+Episode: 161, Reward: 3, Q_max: 8.6783, eps: 0.9048, total_step: 120
+total_reward:  12  total_step:  190
+Episode: 162, Reward: 1, Q_max: 8.3778, eps: 0.9184, total_step: 103
+total_reward:  2  total_step:  103
+Episode: 163, Reward: 2, Q_max: 8.8269, eps: 0.9096, total_step: 114
+total_reward:  11  total_step:  201
+Episode: 164, Reward: 1, Q_max: 8.8459, eps: 0.9192, total_step: 102
+total_reward:  1  total_step:  101
+Episode: 165, Reward: 4, Q_max: 8.9413, eps: 0.8976, total_step: 129
+total_reward:  4  total_step:  112
+Episode: 166, Reward: 1, Q_max: 8.7590, eps: 0.9208, total_step: 100
+total_reward:  5  total_step:  133
+Episode: 167, Reward: 2, Q_max: 8.6006, eps: 0.9096, total_step: 114
+total_reward:  7  total_step:  160
+Episode: 168, Reward: 0, Q_max: 8.6452, eps: 0.9024, total_step: 123
+total_reward:  1  total_step:  105
+Episode: 169, Reward: 2, Q_max: 8.8225, eps: 0.9200, total_step: 101
+total_reward:  5  total_step:  132
+Episode: 170, Reward: 1, Q_max: 8.7132, eps: 0.9192, total_step: 102
+total_reward:  3  total_step:  108
+Episode: 171, Reward: 5, Q_max: 8.9932, eps: 0.8968, total_step: 130
+total_reward:  4  total_step:  111
+Episode: 172, Reward: 6, Q_max: 8.9990, eps: 0.8872, total_step: 142
+total_reward:  8  total_step:  138
+Episode: 173, Reward: 1, Q_max: 8.8810, eps: 0.9184, total_step: 103
+total_reward:  6  total_step:  148
+Episode: 174, Reward: 3, Q_max: 8.8627, eps: 0.9096, total_step: 114
+total_reward:  2  total_step:  104
+Episode: 175, Reward: 3, Q_max: 9.0559, eps: 0.9144, total_step: 108
+total_reward:  2  total_step:  105
+Episode: 176, Reward: 1, Q_max: 8.7615, eps: 0.9208, total_step: 100
+total_reward:  6  total_step:  110
+Episode: 177, Reward: 2, Q_max: 8.8947, eps: 0.9136, total_step: 109
+total_reward:  2  total_step:  101
+Episode: 178, Reward: 3, Q_max: 8.7950, eps: 0.9008, total_step: 125
+total_reward:  5  total_step:  139
+Episode: 179, Reward: 7, Q_max: 9.0267, eps: 0.8952, total_step: 132
+total_reward:  3  total_step:  100
+Episode: 180, Reward: 1, Q_max: 9.2512, eps: 0.9208, total_step: 100
+total_reward:  9  total_step:  163
+Episode: 181, Reward: 2, Q_max: 8.6604, eps: 0.9144, total_step: 108
+total_reward:  6  total_step:  133
+Episode: 182, Reward: 1, Q_max: 8.5168, eps: 0.9104, total_step: 113
+total_reward:  2  total_step:  100
+Episode: 183, Reward: 2, Q_max: 8.7890, eps: 0.9032, total_step: 122
+total_reward:  5  total_step:  112
+Episode: 184, Reward: 2, Q_max: 8.6211, eps: 0.9184, total_step: 103
+total_reward:  2  total_step:  108
+Episode: 185, Reward: 0, Q_max: 8.4859, eps: 0.9136, total_step: 109
+total_reward:  8  total_step:  152
+Episode: 186, Reward: 3, Q_max: 8.8933, eps: 0.9192, total_step: 102
+total_reward:  4  total_step:  101
+Episode: 187, Reward: 0, Q_max: 8.7417, eps: 0.9168, total_step: 105
+total_reward:  5  total_step:  122
+Episode: 188, Reward: 1, Q_max: 8.6475, eps: 0.9192, total_step: 102
+total_reward:  10  total_step:  147
+Episode: 189, Reward: 0, Q_max: 8.5247, eps: 0.9208, total_step: 100
+total_reward:  1  total_step:  114
+Episode: 190, Reward: 4, Q_max: 9.1693, eps: 0.9088, total_step: 115
+total_reward:  3  total_step:  130
+Episode: 191, Reward: 3, Q_max: 8.6527, eps: 0.9064, total_step: 118
+total_reward:  6  total_step:  150
+Episode: 192, Reward: 5, Q_max: 8.6292, eps: 0.9032, total_step: 122
+total_reward:  6  total_step:  145
+Episode: 193, Reward: 3, Q_max: 8.6499, eps: 0.8864, total_step: 143
+total_reward:  3  total_step:  107
+Episode: 194, Reward: 1, Q_max: 8.7234, eps: 0.9200, total_step: 101
+total_reward:  5  total_step:  146
+Episode: 195, Reward: 5, Q_max: 9.3535, eps: 0.9072, total_step: 117
+total_reward:  1  total_step:  108
+Episode: 196, Reward: 2, Q_max: 8.3243, eps: 0.9056, total_step: 119
+total_reward:  2  total_step:  105
+Episode: 197, Reward: 1, Q_max: 8.4963, eps: 0.9208, total_step: 100
+total_reward:  3  total_step:  111
+Episode: 198, Reward: 0, Q_max: 8.6438, eps: 0.9096, total_step: 114
+total_reward:  3  total_step:  100
+Episode: 199, Reward: 2, Q_max: 8.7695, eps: 0.9200, total_step: 101
+total_reward:  3  total_step:  105
+Episode: 200, Reward: 2, Q_max: 8.3757, eps: 0.9176, total_step: 104
+total_reward:  6  total_step:  129
+Episode: 201, Reward: 6, Q_max: 8.7009, eps: 0.8800, total_step: 151
+total_reward:  4  total_step:  103
+Episode: 202, Reward: 1, Q_max: 8.4196, eps: 0.9168, total_step: 105
+total_reward:  1  total_step:  101
+Episode: 203, Reward: 3, Q_max: 8.6235, eps: 0.9088, total_step: 115
+total_reward:  4  total_step:  107
+Episode: 204, Reward: 0, Q_max: 8.2049, eps: 0.9168, total_step: 105
+total_reward:  2  total_step:  112
+Episode: 205, Reward: 0, Q_max: 8.3060, eps: 0.9168, total_step: 105
+total_reward:  2  total_step:  110
+Episode: 206, Reward: 4, Q_max: 8.5949, eps: 0.9152, total_step: 107
+total_reward:  8  total_step:  131
+Episode: 207, Reward: 3, Q_max: 8.9616, eps: 0.9184, total_step: 103
+total_reward:  3  total_step:  103
+Episode: 208, Reward: 2, Q_max: 8.5446, eps: 0.9200, total_step: 101
+total_reward:  3  total_step:  124
+Episode: 209, Reward: 2, Q_max: 8.6934, eps: 0.9144, total_step: 108
+total_reward:  2  total_step:  101
+Episode: 210, Reward: 1, Q_max: 8.9135, eps: 0.9176, total_step: 104
+total_reward:  1  total_step:  101
+Episode: 211, Reward: 3, Q_max: 8.2665, eps: 0.9016, total_step: 124
+total_reward:  7  total_step:  148
+Episode: 212, Reward: 2, Q_max: 8.1471, eps: 0.9168, total_step: 105
+total_reward:  3  total_step:  104
+Episode: 213, Reward: 3, Q_max: 8.1607, eps: 0.9152, total_step: 107
+total_reward:  4  total_step:  125
+Episode: 214, Reward: 1, Q_max: 8.2317, eps: 0.9184, total_step: 103
+total_reward:  9  total_step:  173
+Episode: 215, Reward: 1, Q_max: 8.1856, eps: 0.9112, total_step: 112
+total_reward:  2  total_step:  102
+Episode: 216, Reward: 5, Q_max: 8.2938, eps: 0.8720, total_step: 161
+total_reward:  5  total_step:  118
+Episode: 217, Reward: 4, Q_max: 8.3633, eps: 0.9008, total_step: 125
+total_reward:  2  total_step:  100
+Episode: 218, Reward: 2, Q_max: 8.2900, eps: 0.9136, total_step: 109
+total_reward:  1  total_step:  105
+Episode: 219, Reward: 2, Q_max: 8.3136, eps: 0.9128, total_step: 110
+total_reward:  3  total_step:  121
+Episode: 220, Reward: 1, Q_max: 8.2082, eps: 0.9144, total_step: 108
+total_reward:  5  total_step:  100
+Episode: 221, Reward: 1, Q_max: 8.1171, eps: 0.9088, total_step: 115
+total_reward:  6  total_step:  122
+Episode: 222, Reward: 2, Q_max: 8.0564, eps: 0.9208, total_step: 100
+total_reward:  8  total_step:  138
+Episode: 223, Reward: 2, Q_max: 8.4722, eps: 0.9192, total_step: 102
+total_reward:  2  total_step:  102
+Episode: 224, Reward: 2, Q_max: 8.0346, eps: 0.9008, total_step: 125
+total_reward:  7  total_step:  139
+Episode: 225, Reward: 2, Q_max: 8.3057, eps: 0.9080, total_step: 116
+total_reward:  1  total_step:  104
+Episode: 226, Reward: 2, Q_max: 8.0067, eps: 0.9008, total_step: 125
+total_reward:  4  total_step:  121
+Episode: 227, Reward: 1, Q_max: 8.1978, eps: 0.9200, total_step: 101
+total_reward:  1  total_step:  101
+Episode: 228, Reward: 5, Q_max: 7.9988, eps: 0.9144, total_step: 108
+total_reward:  8  total_step:  142
+Episode: 229, Reward: 1, Q_max: 8.1612, eps: 0.9176, total_step: 104
+total_reward:  7  total_step:  154
+Episode: 230, Reward: 0, Q_max: 7.6467, eps: 0.9168, total_step: 105
+total_reward:  3  total_step:  129
+Episode: 231, Reward: 2, Q_max: 8.0262, eps: 0.9192, total_step: 102
+total_reward:  7  total_step:  138
+Episode: 232, Reward: 2, Q_max: 7.8488, eps: 0.9128, total_step: 110
+total_reward:  2  total_step:  113
+Episode: 233, Reward: 0, Q_max: 7.7323, eps: 0.9208, total_step: 100
+total_reward:  6  total_step:  109
+Episode: 234, Reward: 2, Q_max: 7.6158, eps: 0.9160, total_step: 106
+total_reward:  6  total_step:  122
+Episode: 235, Reward: 4, Q_max: 8.1295, eps: 0.9056, total_step: 119
+total_reward:  3  total_step:  141
+Episode: 236, Reward: 2, Q_max: 7.7703, eps: 0.9080, total_step: 116
+total_reward:  10  total_step:  211
+Episode: 237, Reward: 3, Q_max: 7.5914, eps: 0.8712, total_step: 162
+total_reward:  3  total_step:  111
+Episode: 238, Reward: 3, Q_max: 8.0463, eps: 0.9184, total_step: 103
+total_reward:  4  total_step:  103
+Episode: 239, Reward: 1, Q_max: 7.9035, eps: 0.9168, total_step: 105
+total_reward:  3  total_step:  102
+Episode: 240, Reward: 3, Q_max: 7.8213, eps: 0.9160, total_step: 106
+total_reward:  4  total_step:  123
+Episode: 241, Reward: 4, Q_max: 8.0375, eps: 0.9176, total_step: 104
+total_reward:  11  total_step:  214
+Episode: 242, Reward: 1, Q_max: 7.7518, eps: 0.9176, total_step: 104
+total_reward:  9  total_step:  167
+Episode: 243, Reward: 2, Q_max: 7.3957, eps: 0.9176, total_step: 104
+total_reward:  16  total_step:  292
+Episode: 244, Reward: 2, Q_max: 7.3749, eps: 0.9120, total_step: 111
+total_reward:  1  total_step:  105
+Episode: 245, Reward: 4, Q_max: 8.1736, eps: 0.9168, total_step: 105
+total_reward:  5  total_step:  143
+Episode: 246, Reward: 0, Q_max: 7.8158, eps: 0.9192, total_step: 102
+total_reward:  11  total_step:  189
+Episode: 247, Reward: 0, Q_max: 7.4283, eps: 0.9136, total_step: 109
+total_reward:  8  total_step:  145
+Episode: 248, Reward: 3, Q_max: 7.5706, eps: 0.8968, total_step: 130
+total_reward:  7  total_step:  120
+Episode: 249, Reward: 1, Q_max: 7.4780, eps: 0.9208, total_step: 100
+total_reward:  5  total_step:  139
+Episode: 250, Reward: 5, Q_max: 7.5079, eps: 0.9000, total_step: 126
+total_reward:  4  total_step:  104
+Episode: 251, Reward: 1, Q_max: 7.5525, eps: 0.9176, total_step: 104
+total_reward:  3  total_step:  100
+Episode: 252, Reward: 1, Q_max: 7.6415, eps: 0.9080, total_step: 116
+total_reward:  4  total_step:  103
+Episode: 253, Reward: 2, Q_max: 7.4218, eps: 0.9200, total_step: 101
+total_reward:  4  total_step:  117
+Episode: 254, Reward: 2, Q_max: 7.4766, eps: 0.9152, total_step: 107
+total_reward:  2  total_step:  107
+Episode: 255, Reward: 0, Q_max: 7.3512, eps: 0.9192, total_step: 102
+total_reward:  8  total_step:  194
+Episode: 256, Reward: 0, Q_max: 7.1753, eps: 0.9184, total_step: 103
+total_reward:  13  total_step:  206
+Episode: 257, Reward: 2, Q_max: 7.4208, eps: 0.9208, total_step: 100
+total_reward:  5  total_step:  170
+Episode: 258, Reward: 2, Q_max: 7.6853, eps: 0.9208, total_step: 100
+total_reward:  2  total_step:  102
+Episode: 259, Reward: 0, Q_max: 7.2181, eps: 0.9200, total_step: 101
+total_reward:  9  total_step:  157
+Episode: 260, Reward: 2, Q_max: 7.7435, eps: 0.9120, total_step: 111
+total_reward:  11  total_step:  180
+Episode: 261, Reward: 5, Q_max: 7.5085, eps: 0.9000, total_step: 126
+total_reward:  5  total_step:  112
+Episode: 262, Reward: 3, Q_max: 7.2878, eps: 0.9112, total_step: 112
+total_reward:  3  total_step:  132
+Episode: 263, Reward: 0, Q_max: 7.6880, eps: 0.9120, total_step: 111
+total_reward:  5  total_step:  141
+Episode: 264, Reward: 1, Q_max: 7.0234, eps: 0.9200, total_step: 101
+total_reward:  7  total_step:  173
+Episode: 265, Reward: 2, Q_max: 7.7018, eps: 0.9176, total_step: 104
+total_reward:  2  total_step:  107
+Episode: 266, Reward: 3, Q_max: 7.3293, eps: 0.9192, total_step: 102
+total_reward:  3  total_step:  100
+Episode: 267, Reward: 0, Q_max: 7.1662, eps: 0.9200, total_step: 101
+total_reward:  3  total_step:  105
+Episode: 268, Reward: 1, Q_max: 7.2846, eps: 0.9056, total_step: 119
+total_reward:  16  total_step:  226
+Episode: 269, Reward: 1, Q_max: 7.2850, eps: 0.9104, total_step: 113
+total_reward:  8  total_step:  196
+Episode: 270, Reward: 1, Q_max: 7.3090, eps: 0.9208, total_step: 100
+total_reward:  5  total_step:  115
+Episode: 271, Reward: 4, Q_max: 7.2933, eps: 0.8984, total_step: 128
+total_reward:  9  total_step:  190
+Episode: 272, Reward: 1, Q_max: 7.3350, eps: 0.9200, total_step: 101
+total_reward:  4  total_step:  127
+Episode: 273, Reward: 2, Q_max: 7.5897, eps: 0.9160, total_step: 106
+total_reward:  6  total_step:  132
+Episode: 274, Reward: 2, Q_max: 7.4582, eps: 0.9160, total_step: 106
+total_reward:  7  total_step:  138
+Episode: 275, Reward: 3, Q_max: 7.2803, eps: 0.9144, total_step: 108
+total_reward:  6  total_step:  119
+Episode: 276, Reward: 1, Q_max: 7.4607, eps: 0.9160, total_step: 106
+total_reward:  7  total_step:  165
+Episode: 277, Reward: 2, Q_max: 6.9749, eps: 0.9152, total_step: 107
+total_reward:  5  total_step:  102
+Episode: 278, Reward: 0, Q_max: 6.8478, eps: 0.9040, total_step: 121
+total_reward:  3  total_step:  107
+Episode: 279, Reward: 5, Q_max: 7.2348, eps: 0.9072, total_step: 117
+total_reward:  3  total_step:  100
+Episode: 280, Reward: 2, Q_max: 6.8848, eps: 0.9192, total_step: 102
+total_reward:  16  total_step:  288
+Episode: 281, Reward: 0, Q_max: 6.9346, eps: 0.9176, total_step: 104
+total_reward:  11  total_step:  179
+Episode: 282, Reward: 3, Q_max: 7.2142, eps: 0.9208, total_step: 100
+total_reward:  6  total_step:  161
+Episode: 283, Reward: 2, Q_max: 7.2452, eps: 0.9168, total_step: 105
+total_reward:  2  total_step:  116
+Episode: 284, Reward: 1, Q_max: 6.9355, eps: 0.8976, total_step: 129
+total_reward:  2  total_step:  103
+Episode: 285, Reward: 3, Q_max: 7.3951, eps: 0.9152, total_step: 107
+total_reward:  4  total_step:  103
+Episode: 286, Reward: 2, Q_max: 7.2390, eps: 0.9072, total_step: 117
+total_reward:  2  total_step:  103
+Episode: 287, Reward: 3, Q_max: 6.9906, eps: 0.9184, total_step: 103
+total_reward:  12  total_step:  177
+Episode: 288, Reward: 2, Q_max: 7.0091, eps: 0.9184, total_step: 103
+total_reward:  10  total_step:  168
+Episode: 289, Reward: 2, Q_max: 7.1764, eps: 0.9168, total_step: 105
+total_reward:  9  total_step:  183
+Episode: 290, Reward: 1, Q_max: 7.0059, eps: 0.9160, total_step: 106
+total_reward:  5  total_step:  126
+Episode: 291, Reward: 1, Q_max: 6.7237, eps: 0.9208, total_step: 100
+total_reward:  8  total_step:  115
+Episode: 292, Reward: 3, Q_max: 7.2403, eps: 0.9176, total_step: 104
+total_reward:  8  total_step:  168
+Episode: 293, Reward: 1, Q_max: 6.8687, eps: 0.9168, total_step: 105
+total_reward:  4  total_step:  122
+Episode: 294, Reward: 2, Q_max: 7.5023, eps: 0.9088, total_step: 115
+total_reward:  3  total_step:  105
+Episode: 295, Reward: 1, Q_max: 7.2010, eps: 0.9040, total_step: 121
+total_reward:  5  total_step:  106
+Episode: 296, Reward: 1, Q_max: 7.4837, eps: 0.9184, total_step: 103
+total_reward:  8  total_step:  150
+Episode: 297, Reward: 4, Q_max: 7.1376, eps: 0.9168, total_step: 105
+total_reward:  8  total_step:  171
+Episode: 298, Reward: 1, Q_max: 6.9798, eps: 0.9160, total_step: 106
+total_reward:  5  total_step:  125
+Episode: 299, Reward: 3, Q_max: 7.2182, eps: 0.9120, total_step: 111
+total_reward:  9  total_step:  183
+Episode: 300, Reward: 2, Q_max: 6.9199, eps: 0.9192, total_step: 102
+total_reward:  7  total_step:  147
+Episode: 301, Reward: 1, Q_max: 6.9430, eps: 0.9112, total_step: 112
+total_reward:  3  total_step:  101
+Episode: 302, Reward: 5, Q_max: 7.2452, eps: 0.9200, total_step: 101
+total_reward:  2  total_step:  113
+Episode: 303, Reward: 2, Q_max: 6.8831, eps: 0.9168, total_step: 105
+total_reward:  6  total_step:  133
+Episode: 304, Reward: 3, Q_max: 6.8571, eps: 0.8952, total_step: 132
+total_reward:  4  total_step:  104
+Episode: 305, Reward: 1, Q_max: 6.6591, eps: 0.9208, total_step: 100
+total_reward:  6  total_step:  111
+Episode: 306, Reward: 3, Q_max: 7.2901, eps: 0.9184, total_step: 103
+total_reward:  6  total_step:  151
+Episode: 307, Reward: 0, Q_max: 7.2008, eps: 0.9184, total_step: 103
+total_reward:  3  total_step:  101
+Episode: 308, Reward: 3, Q_max: 7.1485, eps: 0.9184, total_step: 103
+total_reward:  8  total_step:  139
+Episode: 309, Reward: 2, Q_max: 6.7095, eps: 0.9016, total_step: 124
+total_reward:  6  total_step:  114
+Episode: 310, Reward: 0, Q_max: 6.7436, eps: 0.9200, total_step: 101
+total_reward:  5  total_step:  105
+Episode: 311, Reward: 2, Q_max: 6.7033, eps: 0.9128, total_step: 110
+total_reward:  7  total_step:  130
+Episode: 312, Reward: 1, Q_max: 6.6077, eps: 0.9192, total_step: 102
+total_reward:  9  total_step:  128
+Episode: 313, Reward: 2, Q_max: 6.3348, eps: 0.9208, total_step: 100
+total_reward:  2  total_step:  109
+Episode: 314, Reward: 4, Q_max: 6.8051, eps: 0.9128, total_step: 110
+total_reward:  5  total_step:  106
+Episode: 315, Reward: 4, Q_max: 6.6378, eps: 0.9136, total_step: 109
+total_reward:  14  total_step:  222
+Episode: 316, Reward: 5, Q_max: 6.5761, eps: 0.9040, total_step: 121
+total_reward:  2  total_step:  104
+Episode: 317, Reward: 2, Q_max: 6.7778, eps: 0.8960, total_step: 131
+total_reward:  4  total_step:  104
+Episode: 318, Reward: 2, Q_max: 6.6223, eps: 0.9024, total_step: 123
+total_reward:  4  total_step:  106
+Episode: 319, Reward: 2, Q_max: 6.8592, eps: 0.9168, total_step: 105
+total_reward:  5  total_step:  127
+Episode: 320, Reward: 1, Q_max: 7.1548, eps: 0.9128, total_step: 110
+total_reward:  11  total_step:  204
+Episode: 321, Reward: 7, Q_max: 7.0568, eps: 0.8920, total_step: 136
+total_reward:  5  total_step:  132
+Episode: 322, Reward: 2, Q_max: 6.8536, eps: 0.9096, total_step: 114
+total_reward:  5  total_step:  137
+Episode: 323, Reward: 5, Q_max: 6.6779, eps: 0.9096, total_step: 114
+total_reward:  3  total_step:  117
+Episode: 324, Reward: 1, Q_max: 6.4316, eps: 0.9064, total_step: 118
+total_reward:  9  total_step:  161
+Episode: 325, Reward: 2, Q_max: 6.8381, eps: 0.9112, total_step: 112
+total_reward:  7  total_step:  111
+Episode: 326, Reward: 0, Q_max: 6.6995, eps: 0.9152, total_step: 107
+total_reward:  20  total_step:  299
+Episode: 327, Reward: 2, Q_max: 6.3821, eps: 0.9208, total_step: 100
+total_reward:  6  total_step:  103
+Episode: 328, Reward: 1, Q_max: 6.3203, eps: 0.9032, total_step: 122
+total_reward:  6  total_step:  129
+Episode: 329, Reward: 4, Q_max: 6.6904, eps: 0.9184, total_step: 103
+total_reward:  9  total_step:  169
+Episode: 330, Reward: 3, Q_max: 6.8842, eps: 0.8960, total_step: 131
+total_reward:  8  total_step:  166
+Episode: 331, Reward: 2, Q_max: 6.6064, eps: 0.9144, total_step: 108
+total_reward:  6  total_step:  122
+Episode: 332, Reward: 2, Q_max: 7.0893, eps: 0.9192, total_step: 102
+total_reward:  6  total_step:  140
+Episode: 333, Reward: 1, Q_max: 6.6389, eps: 0.9168, total_step: 105
+total_reward:  12  total_step:  181
+Episode: 334, Reward: 1, Q_max: 6.2274, eps: 0.9168, total_step: 105
+total_reward:  4  total_step:  104
+Episode: 335, Reward: 3, Q_max: 6.5198, eps: 0.9208, total_step: 100
+total_reward:  15  total_step:  206
+Episode: 336, Reward: 2, Q_max: 6.3315, eps: 0.9160, total_step: 106
+total_reward:  7  total_step:  133
+Episode: 337, Reward: 1, Q_max: 6.7635, eps: 0.9208, total_step: 100
+total_reward:  6  total_step:  110
+Episode: 338, Reward: 2, Q_max: 6.3902, eps: 0.9096, total_step: 114
+total_reward:  13  total_step:  224
+Episode: 339, Reward: 4, Q_max: 6.4092, eps: 0.9112, total_step: 112
+total_reward:  3  total_step:  100
+Episode: 340, Reward: 0, Q_max: 6.6217, eps: 0.9128, total_step: 110
+total_reward:  6  total_step:  160
+Episode: 341, Reward: 3, Q_max: 6.6231, eps: 0.8880, total_step: 141
+total_reward:  3  total_step:  100
+Episode: 342, Reward: 2, Q_max: 6.8262, eps: 0.9088, total_step: 115
+total_reward:  8  total_step:  164
+Episode: 343, Reward: 2, Q_max: 5.9143, eps: 0.9184, total_step: 103
+total_reward:  4  total_step:  102
+Episode: 344, Reward: 3, Q_max: 6.3136, eps: 0.9048, total_step: 120
+total_reward:  7  total_step:  125
+Episode: 345, Reward: 2, Q_max: 6.0786, eps: 0.9120, total_step: 111
+total_reward:  7  total_step:  172
+Episode: 346, Reward: 1, Q_max: 6.2667, eps: 0.9104, total_step: 113
+total_reward:  7  total_step:  113
+Episode: 347, Reward: 1, Q_max: 6.1356, eps: 0.9184, total_step: 103
+total_reward:  8  total_step:  167
+Episode: 348, Reward: 1, Q_max: 5.9541, eps: 0.9184, total_step: 103
+total_reward:  5  total_step:  106
+Episode: 349, Reward: 2, Q_max: 6.8604, eps: 0.9176, total_step: 104
+total_reward:  13  total_step:  188
+Episode: 350, Reward: 4, Q_max: 6.1738, eps: 0.8904, total_step: 138
+total_reward:  11  total_step:  173
+Episode: 351, Reward: 1, Q_max: 6.3224, eps: 0.9184, total_step: 103
+total_reward:  5  total_step:  130
+Episode: 352, Reward: 3, Q_max: 5.8988, eps: 0.9088, total_step: 115
+total_reward:  8  total_step:  134
+Episode: 353, Reward: 2, Q_max: 6.0564, eps: 0.9192, total_step: 102
+total_reward:  8  total_step:  127
+Episode: 354, Reward: 1, Q_max: 6.3188, eps: 0.9168, total_step: 105
+total_reward:  7  total_step:  134
+Episode: 355, Reward: 1, Q_max: 6.3823, eps: 0.9208, total_step: 100
+total_reward:  4  total_step:  138
+Episode: 356, Reward: 3, Q_max: 6.2934, eps: 0.9136, total_step: 109
+total_reward:  7  total_step:  150
+Episode: 357, Reward: 2, Q_max: 6.1581, eps: 0.9192, total_step: 102
+total_reward:  5  total_step:  106
+Episode: 358, Reward: 3, Q_max: 6.0195, eps: 0.9080, total_step: 116
+total_reward:  10  total_step:  166
+Episode: 359, Reward: 1, Q_max: 6.1927, eps: 0.9160, total_step: 106
+total_reward:  8  total_step:  120
+Episode: 360, Reward: 0, Q_max: 5.8244, eps: 0.9200, total_step: 101
+total_reward:  15  total_step:  235
+Episode: 361, Reward: 1, Q_max: 5.4774, eps: 0.9208, total_step: 100
+total_reward:  14  total_step:  193
+Episode: 362, Reward: 1, Q_max: 5.7942, eps: 0.9128, total_step: 110
+total_reward:  8  total_step:  117
+Episode: 363, Reward: 1, Q_max: 5.7415, eps: 0.9168, total_step: 105
+total_reward:  35  total_step:  461
+Episode: 364, Reward: 1, Q_max: 5.7927, eps: 0.9160, total_step: 106
+total_reward:  7  total_step:  166
+Episode: 365, Reward: 1, Q_max: 5.9511, eps: 0.9192, total_step: 102
+total_reward:  12  total_step:  172
+Episode: 366, Reward: 4, Q_max: 6.2012, eps: 0.9088, total_step: 115
+total_reward:  6  total_step:  125
+Episode: 367, Reward: 3, Q_max: 6.2438, eps: 0.9104, total_step: 113
+total_reward:  7  total_step:  127
+Episode: 368, Reward: 1, Q_max: 5.8409, eps: 0.9144, total_step: 108
+total_reward:  9  total_step:  186
+Episode: 369, Reward: 2, Q_max: 5.9319, eps: 0.9208, total_step: 100
+total_reward:  21  total_step:  306
+Episode: 370, Reward: 1, Q_max: 5.5045, eps: 0.9184, total_step: 103
+total_reward:  8  total_step:  161
+Episode: 371, Reward: 0, Q_max: 5.6297, eps: 0.9192, total_step: 102
+total_reward:  6  total_step:  125
+Episode: 372, Reward: 1, Q_max: 5.9974, eps: 0.9176, total_step: 104
+total_reward:  3  total_step:  104
+Episode: 373, Reward: 0, Q_max: 6.1601, eps: 0.9168, total_step: 105
+total_reward:  13  total_step:  210
+Episode: 374, Reward: 6, Q_max: 5.6552, eps: 0.9024, total_step: 123
+total_reward:  13  total_step:  209
+Episode: 375, Reward: 1, Q_max: 5.8170, eps: 0.9200, total_step: 101
+total_reward:  5  total_step:  135
+Episode: 376, Reward: 3, Q_max: 5.8742, eps: 0.9200, total_step: 101
+total_reward:  10  total_step:  192
+Episode: 377, Reward: 4, Q_max: 5.4127, eps: 0.9120, total_step: 111
+total_reward:  13  total_step:  183
+Episode: 378, Reward: 2, Q_max: 5.6733, eps: 0.9184, total_step: 103
+total_reward:  9  total_step:  186
+Episode: 379, Reward: 4, Q_max: 5.8037, eps: 0.8872, total_step: 142
+total_reward:  6  total_step:  109
+Episode: 380, Reward: 2, Q_max: 5.9607, eps: 0.9072, total_step: 117
+total_reward:  4  total_step:  103
+Episode: 381, Reward: 3, Q_max: 5.7457, eps: 0.9208, total_step: 100
+total_reward:  17  total_step:  267
+Episode: 382, Reward: 2, Q_max: 5.4141, eps: 0.9088, total_step: 115
+total_reward:  13  total_step:  195
+Episode: 383, Reward: 1, Q_max: 5.9619, eps: 0.9208, total_step: 100
+total_reward:  11  total_step:  161
+Episode: 384, Reward: 3, Q_max: 5.7357, eps: 0.9184, total_step: 103
+total_reward:  4  total_step:  105
+Episode: 385, Reward: 0, Q_max: 5.6337, eps: 0.9192, total_step: 102
+total_reward:  21  total_step:  314
+Episode: 386, Reward: 0, Q_max: 5.7152, eps: 0.9176, total_step: 104
+total_reward:  22  total_step:  331
+Episode: 387, Reward: 1, Q_max: 5.5304, eps: 0.9176, total_step: 104
+total_reward:  5  total_step:  137
+Episode: 388, Reward: 1, Q_max: 5.2241, eps: 0.9160, total_step: 106
+total_reward:  5  total_step:  132
+Episode: 389, Reward: 6, Q_max: 5.7030, eps: 0.8848, total_step: 145
+total_reward:  5  total_step:  106
+Episode: 390, Reward: 4, Q_max: 5.9019, eps: 0.9104, total_step: 113
+total_reward:  9  total_step:  165
+Episode: 391, Reward: 2, Q_max: 5.9207, eps: 0.8896, total_step: 139
+total_reward:  13  total_step:  214
+Episode: 392, Reward: 5, Q_max: 5.7769, eps: 0.8960, total_step: 131
+total_reward:  11  total_step:  204
+Episode: 393, Reward: 2, Q_max: 5.4526, eps: 0.9192, total_step: 102
+total_reward:  3  total_step:  100
+Episode: 394, Reward: 2, Q_max: 6.1055, eps: 0.9072, total_step: 117
+total_reward:  9  total_step:  135
+Episode: 395, Reward: 1, Q_max: 5.6967, eps: 0.9208, total_step: 100
+total_reward:  2  total_step:  102
+Episode: 396, Reward: 2, Q_max: 5.7064, eps: 0.9160, total_step: 106
+total_reward:  3  total_step:  118
+Episode: 397, Reward: 2, Q_max: 5.7677, eps: 0.9144, total_step: 108
+total_reward:  20  total_step:  271
+Episode: 398, Reward: 0, Q_max: 5.4151, eps: 0.9184, total_step: 103
+total_reward:  3  total_step:  140
+Episode: 399, Reward: 3, Q_max: 6.1579, eps: 0.9144, total_step: 108
+total_reward:  27  total_step:  444
+Episode: 400, Reward: 2, Q_max: 5.5737, eps: 0.9168, total_step: 105
+total_reward:  1  total_step:  106
+Episode: 401, Reward: 2, Q_max: 5.7949, eps: 0.9152, total_step: 107
+total_reward:  11  total_step:  143
+Episode: 402, Reward: 3, Q_max: 5.8740, eps: 0.8960, total_step: 131
+total_reward:  61  total_step:  758
+Episode: 403, Reward: 1, Q_max: 5.5845, eps: 0.9192, total_step: 102
+total_reward:  14  total_step:  196
+Episode: 404, Reward: 2, Q_max: 5.7162, eps: 0.9200, total_step: 101
+total_reward:  16  total_step:  217
+Episode: 405, Reward: 2, Q_max: 5.7387, eps: 0.9176, total_step: 104
+total_reward:  14  total_step:  218
+Episode: 406, Reward: 2, Q_max: 5.8492, eps: 0.9176, total_step: 104
+total_reward:  37  total_step:  594
+Episode: 407, Reward: 3, Q_max: 6.2496, eps: 0.9200, total_step: 101
+total_reward:  3  total_step:  106
+Episode: 408, Reward: 2, Q_max: 5.4953, eps: 0.9120, total_step: 111
+total_reward:  10  total_step:  188
+Episode: 409, Reward: 1, Q_max: 5.3670, eps: 0.9208, total_step: 100
+total_reward:  6  total_step:  102
+Episode: 410, Reward: 3, Q_max: 5.3623, eps: 0.9208, total_step: 100
+total_reward:  17  total_step:  221
+Episode: 411, Reward: 2, Q_max: 5.3905, eps: 0.9072, total_step: 117
+total_reward:  9  total_step:  165
+Episode: 412, Reward: 1, Q_max: 5.3205, eps: 0.9200, total_step: 101
+total_reward:  7  total_step:  131
+Episode: 413, Reward: 3, Q_max: 5.3763, eps: 0.9200, total_step: 101
+total_reward:  5  total_step:  101
+Episode: 414, Reward: 4, Q_max: 5.8879, eps: 0.9112, total_step: 112
+total_reward:  33  total_step:  398
+Episode: 415, Reward: 3, Q_max: 5.3503, eps: 0.9096, total_step: 114
+total_reward:  6  total_step:  147
+Episode: 416, Reward: 3, Q_max: 5.2076, eps: 0.9208, total_step: 100
+total_reward:  23  total_step:  341
+Episode: 417, Reward: 2, Q_max: 5.0281, eps: 0.9168, total_step: 105
+total_reward:  14  total_step:  212
+Episode: 418, Reward: 3, Q_max: 5.5605, eps: 0.9200, total_step: 101
+total_reward:  23  total_step:  258
+Episode: 419, Reward: 2, Q_max: 5.4894, eps: 0.9208, total_step: 100
+total_reward:  26  total_step:  307
+Episode: 420, Reward: 1, Q_max: 5.8238, eps: 0.9200, total_step: 101
+total_reward:  3  total_step:  102
+Episode: 421, Reward: 4, Q_max: 5.3948, eps: 0.8952, total_step: 132
+total_reward:  1  total_step:  100
+Episode: 422, Reward: 1, Q_max: 5.2350, eps: 0.9064, total_step: 118
+total_reward:  14  total_step:  243
+Episode: 423, Reward: 4, Q_max: 5.4188, eps: 0.8944, total_step: 133
+total_reward:  5  total_step:  130
+Episode: 424, Reward: 1, Q_max: 5.0427, eps: 0.9200, total_step: 101
+total_reward:  16  total_step:  216
+Episode: 425, Reward: 2, Q_max: 5.1591, eps: 0.9176, total_step: 104
+total_reward:  14  total_step:  222
+Episode: 426, Reward: 4, Q_max: 5.5629, eps: 0.8728, total_step: 160
+total_reward:  12  total_step:  247
+Episode: 427, Reward: 2, Q_max: 5.4078, eps: 0.9072, total_step: 117
+total_reward:  7  total_step:  155
+Episode: 428, Reward: 6, Q_max: 5.4504, eps: 0.9016, total_step: 124
+total_reward:  14  total_step:  226
+Episode: 429, Reward: 1, Q_max: 5.3351, eps: 0.9200, total_step: 101
+total_reward:  48  total_step:  661
+Episode: 430, Reward: 3, Q_max: 5.4935, eps: 0.9008, total_step: 125
+total_reward:  10  total_step:  144
+Episode: 431, Reward: 2, Q_max: 5.6007, eps: 0.9040, total_step: 121
+total_reward:  11  total_step:  187
+Episode: 432, Reward: 1, Q_max: 5.2421, eps: 0.9112, total_step: 112
+total_reward:  41  total_step:  490
+Episode: 433, Reward: 0, Q_max: 5.1471, eps: 0.9128, total_step: 110
+total_reward:  17  total_step:  213
+Episode: 434, Reward: 2, Q_max: 5.6419, eps: 0.9208, total_step: 100
+total_reward:  26  total_step:  377
+Episode: 435, Reward: 6, Q_max: 5.7106, eps: 0.9072, total_step: 117
+total_reward:  41  total_step:  563
+Episode: 436, Reward: 1, Q_max: 5.5117, eps: 0.9184, total_step: 103
+total_reward:  30  total_step:  368
+Episode: 437, Reward: 3, Q_max: 5.0863, eps: 0.8976, total_step: 129
+total_reward:  31  total_step:  371
+Episode: 438, Reward: 2, Q_max: 5.2944, eps: 0.9064, total_step: 118
+total_reward:  15  total_step:  230
+Episode: 439, Reward: 2, Q_max: 5.1069, eps: 0.9200, total_step: 101
+total_reward:  2  total_step:  104
+Episode: 440, Reward: 1, Q_max: 4.6724, eps: 0.9184, total_step: 103
+total_reward:  9  total_step:  130
+Episode: 441, Reward: 0, Q_max: 4.8949, eps: 0.9152, total_step: 107
+total_reward:  25  total_step:  345
+Episode: 442, Reward: 0, Q_max: 5.3690, eps: 0.9136, total_step: 109
+total_reward:  8  total_step:  138
+Episode: 443, Reward: 3, Q_max: 5.0375, eps: 0.9056, total_step: 119
+total_reward:  7  total_step:  182
+Episode: 444, Reward: 2, Q_max: 5.1866, eps: 0.9136, total_step: 109
+total_reward:  6  total_step:  132
+Episode: 445, Reward: 3, Q_max: 4.9668, eps: 0.9120, total_step: 111
+total_reward:  9  total_step:  163
+Episode: 446, Reward: 5, Q_max: 5.3823, eps: 0.8888, total_step: 140
+total_reward:  6  total_step:  119
+Episode: 447, Reward: 3, Q_max: 5.2308, eps: 0.9104, total_step: 113
+total_reward:  40  total_step:  511
+Episode: 448, Reward: 0, Q_max: 4.7621, eps: 0.9200, total_step: 101
+total_reward:  22  total_step:  312
+Episode: 449, Reward: 5, Q_max: 5.3018, eps: 0.8816, total_step: 149
+total_reward:  48  total_step:  618
+Episode: 450, Reward: 3, Q_max: 5.6884, eps: 0.8976, total_step: 129
+total_reward:  16  total_step:  233
+Episode: 451, Reward: 1, Q_max: 5.0660, eps: 0.9104, total_step: 113
+total_reward:  69  total_step:  941
+Episode: 452, Reward: 2, Q_max: 5.1833, eps: 0.9136, total_step: 109
+total_reward:  9  total_step:  174
+Episode: 453, Reward: 3, Q_max: 5.1555, eps: 0.8992, total_step: 127
+total_reward:  22  total_step:  290
+Episode: 454, Reward: 2, Q_max: 5.5917, eps: 0.9192, total_step: 102
+total_reward:  89  total_step:  1001
+Episode: 455, Reward: 0, Q_max: 5.0645, eps: 0.9168, total_step: 105
+total_reward:  10  total_step:  164
+Episode: 456, Reward: 0, Q_max: 5.5703, eps: 0.9200, total_step: 101
+total_reward:  26  total_step:  349
+Episode: 457, Reward: 1, Q_max: 5.3168, eps: 0.9128, total_step: 110
+total_reward:  42  total_step:  460
+Episode: 458, Reward: 1, Q_max: 5.3884, eps: 0.9168, total_step: 105
+total_reward:  6  total_step:  111
+Episode: 459, Reward: 3, Q_max: 5.3390, eps: 0.8832, total_step: 147
+total_reward:  4  total_step:  100
+Episode: 460, Reward: 0, Q_max: 5.3266, eps: 0.9184, total_step: 103
+total_reward:  7  total_step:  193
+Episode: 461, Reward: 1, Q_max: 5.7202, eps: 0.9192, total_step: 102
+total_reward:  27  total_step:  366
+Episode: 462, Reward: 0, Q_max: 5.1389, eps: 0.9152, total_step: 107
+total_reward:  16  total_step:  209
+Episode: 463, Reward: 1, Q_max: 5.9288, eps: 0.9184, total_step: 103
+total_reward:  10  total_step:  150
+Episode: 464, Reward: 2, Q_max: 5.5167, eps: 0.9192, total_step: 102
+total_reward:  5  total_step:  140
+Episode: 465, Reward: 1, Q_max: 4.7366, eps: 0.9192, total_step: 102
+total_reward:  7  total_step:  137
+Episode: 466, Reward: 2, Q_max: 4.4636, eps: 0.9144, total_step: 108
+total_reward:  8  total_step:  154
+Episode: 467, Reward: 2, Q_max: 5.1900, eps: 0.9144, total_step: 108
+total_reward:  11  total_step:  194
+Episode: 468, Reward: 2, Q_max: 5.0893, eps: 0.9080, total_step: 116
+total_reward:  3  total_step:  101
+Episode: 469, Reward: 2, Q_max: 5.0023, eps: 0.9168, total_step: 105
+total_reward:  32  total_step:  442
+Episode: 470, Reward: 5, Q_max: 5.3475, eps: 0.8960, total_step: 131
+total_reward:  29  total_step:  450
+Episode: 471, Reward: 2, Q_max: 5.5003, eps: 0.9080, total_step: 116
+total_reward:  7  total_step:  108
+Episode: 472, Reward: 2, Q_max: 5.0567, eps: 0.9080, total_step: 116
+total_reward:  9  total_step:  162
+Episode: 473, Reward: 1, Q_max: 5.1865, eps: 0.9208, total_step: 100
+total_reward:  11  total_step:  198
+Episode: 474, Reward: 1, Q_max: 4.7622, eps: 0.9192, total_step: 102
+total_reward:  2  total_step:  118
+Episode: 475, Reward: 2, Q_max: 4.8839, eps: 0.9144, total_step: 108
+total_reward:  6  total_step:  153
+Episode: 476, Reward: 3, Q_max: 5.1968, eps: 0.9168, total_step: 105
+total_reward:  52  total_step:  697
+Episode: 477, Reward: 2, Q_max: 4.9919, eps: 0.9096, total_step: 114
+total_reward:  23  total_step:  261
+Episode: 478, Reward: 4, Q_max: 5.3347, eps: 0.9208, total_step: 100
+total_reward:  9  total_step:  197
+Episode: 479, Reward: 0, Q_max: 4.8806, eps: 0.9192, total_step: 102
+total_reward:  50  total_step:  723
+Episode: 480, Reward: 0, Q_max: 4.8234, eps: 0.9208, total_step: 100
+total_reward:  4  total_step:  100
+Episode: 481, Reward: 2, Q_max: 4.8884, eps: 0.9152, total_step: 107
+total_reward:  33  total_step:  438
+Episode: 482, Reward: 1, Q_max: 4.4227, eps: 0.9096, total_step: 114
+total_reward:  2  total_step:  112
+Episode: 483, Reward: 1, Q_max: 5.0841, eps: 0.9144, total_step: 108
+total_reward:  35  total_step:  510
+Episode: 484, Reward: 4, Q_max: 4.8666, eps: 0.8744, total_step: 158
+total_reward:  8  total_step:  115
+Episode: 485, Reward: 3, Q_max: 4.5968, eps: 0.8712, total_step: 162
+total_reward:  10  total_step:  160
+Episode: 486, Reward: 2, Q_max: 4.9494, eps: 0.9152, total_step: 107
+total_reward:  39  total_step:  490
+Episode: 487, Reward: 2, Q_max: 5.6875, eps: 0.9168, total_step: 105
+total_reward:  59  total_step:  682
+Episode: 488, Reward: 5, Q_max: 5.5832, eps: 0.9016, total_step: 124
+total_reward:  8  total_step:  123
+Episode: 489, Reward: 3, Q_max: 4.8105, eps: 0.9184, total_step: 103
+total_reward:  37  total_step:  519
+Episode: 490, Reward: 1, Q_max: 4.9189, eps: 0.9208, total_step: 100
+total_reward:  24  total_step:  352
+Episode: 491, Reward: 2, Q_max: 5.2718, eps: 0.9168, total_step: 105
+total_reward:  6  total_step:  149
+Episode: 492, Reward: 2, Q_max: 4.9066, eps: 0.9208, total_step: 100
+total_reward:  11  total_step:  142
+Episode: 493, Reward: 1, Q_max: 4.8032, eps: 0.9192, total_step: 102
+total_reward:  64  total_step:  813
+Episode: 494, Reward: 3, Q_max: 5.1416, eps: 0.9080, total_step: 116
+total_reward:  56  total_step:  718
+Episode: 495, Reward: 1, Q_max: 4.6599, eps: 0.9120, total_step: 111
+total_reward:  26  total_step:  402
+Episode: 496, Reward: 0, Q_max: 4.8231, eps: 0.9192, total_step: 102
+total_reward:  10  total_step:  173
+Episode: 497, Reward: 2, Q_max: 5.1635, eps: 0.9176, total_step: 104
+total_reward:  11  total_step:  166
+Episode: 498, Reward: 1, Q_max: 4.7143, eps: 0.9192, total_step: 102
+total_reward:  9  total_step:  142
+Episode: 499, Reward: 0, Q_max: 5.4901, eps: 0.9160, total_step: 106
+total_reward:  27  total_step:  396
+Episode: 500, Reward: 2, Q_max: 4.4227, eps: 0.9136, total_step: 109
+total_reward:  11  total_step:  154
+Episode: 501, Reward: 1, Q_max: 4.5320, eps: 0.9160, total_step: 106
+total_reward:  7  total_step:  186
+Episode: 502, Reward: 2, Q_max: 4.6914, eps: 0.9168, total_step: 105
+total_reward:  15  total_step:  267
+Episode: 503, Reward: 3, Q_max: 4.7397, eps: 0.9136, total_step: 109
+total_reward:  8  total_step:  155
+Episode: 504, Reward: 2, Q_max: 5.1487, eps: 0.9208, total_step: 100
+total_reward:  15  total_step:  222
+Episode: 505, Reward: 1, Q_max: 5.0476, eps: 0.9208, total_step: 100
+total_reward:  62  total_step:  735
+Episode: 506, Reward: 2, Q_max: 4.7880, eps: 0.9128, total_step: 110
+total_reward:  25  total_step:  357
+Episode: 507, Reward: 2, Q_max: 4.7755, eps: 0.9192, total_step: 102
+total_reward:  6  total_step:  134
+Episode: 508, Reward: 0, Q_max: 5.1727, eps: 0.9152, total_step: 107
+total_reward:  15  total_step:  203
+Episode: 509, Reward: 2, Q_max: 4.9257, eps: 0.9200, total_step: 101
+total_reward:  23  total_step:  285
+Episode: 510, Reward: 0, Q_max: 5.1331, eps: 0.9208, total_step: 100
+total_reward:  69  total_step:  845
+Episode: 511, Reward: 3, Q_max: 5.3472, eps: 0.9136, total_step: 109
+total_reward:  78  total_step:  1001
+Episode: 512, Reward: 1, Q_max: 5.0560, eps: 0.9128, total_step: 110
+total_reward:  14  total_step:  204
+Episode: 513, Reward: 3, Q_max: 5.3398, eps: 0.8912, total_step: 137
+total_reward:  22  total_step:  278
+Episode: 514, Reward: 1, Q_max: 4.5256, eps: 0.9008, total_step: 125
+total_reward:  7  total_step:  135
+Episode: 515, Reward: 4, Q_max: 4.3891, eps: 0.9000, total_step: 126
+total_reward:  15  total_step:  202
+Episode: 516, Reward: 1, Q_max: 4.2106, eps: 0.9168, total_step: 105
+total_reward:  2  total_step:  113
+Episode: 517, Reward: 2, Q_max: 4.6085, eps: 0.9208, total_step: 100
+total_reward:  16  total_step:  294
+Episode: 518, Reward: 0, Q_max: 4.1981, eps: 0.9024, total_step: 123
+total_reward:  27  total_step:  336
+Episode: 519, Reward: 0, Q_max: 5.1923, eps: 0.9200, total_step: 101
+total_reward:  79  total_step:  926
+Episode: 520, Reward: 2, Q_max: 4.1273, eps: 0.9152, total_step: 107
+total_reward:  10  total_step:  166
+Episode: 521, Reward: 1, Q_max: 4.7360, eps: 0.9144, total_step: 108
+total_reward:  39  total_step:  592
+Episode: 522, Reward: 2, Q_max: 4.8166, eps: 0.9176, total_step: 104
+total_reward:  31  total_step:  392
+Episode: 523, Reward: 1, Q_max: 4.3127, eps: 0.9168, total_step: 105
+total_reward:  11  total_step:  212
+Episode: 524, Reward: 4, Q_max: 4.7651, eps: 0.8888, total_step: 140
+total_reward:  85  total_step:  1001
+Episode: 525, Reward: 2, Q_max: 4.2815, eps: 0.9168, total_step: 105
+total_reward:  17  total_step:  248
+Episode: 526, Reward: 8, Q_max: 4.7345, eps: 0.8880, total_step: 141
+total_reward:  7  total_step:  143
+Episode: 527, Reward: 2, Q_max: 4.4041, eps: 0.8984, total_step: 128
+total_reward:  4  total_step:  114
+Episode: 528, Reward: 1, Q_max: 4.9560, eps: 0.9200, total_step: 101
+total_reward:  16  total_step:  265
+Episode: 529, Reward: 5, Q_max: 4.6460, eps: 0.8864, total_step: 143
+total_reward:  6  total_step:  116
+Episode: 530, Reward: 1, Q_max: 4.5859, eps: 0.9128, total_step: 110
+total_reward:  5  total_step:  146
+Episode: 531, Reward: 3, Q_max: 5.2181, eps: 0.9200, total_step: 101
+total_reward:  19  total_step:  266
+Episode: 532, Reward: 1, Q_max: 4.0668, eps: 0.9032, total_step: 122
+total_reward:  31  total_step:  342
+Episode: 533, Reward: 3, Q_max: 5.1408, eps: 0.9200, total_step: 101
+total_reward:  52  total_step:  632
+Episode: 534, Reward: 4, Q_max: 4.9210, eps: 0.8968, total_step: 130
+total_reward:  56  total_step:  712
+Episode: 535, Reward: 3, Q_max: 4.7946, eps: 0.9168, total_step: 105
+total_reward:  23  total_step:  312
+Episode: 536, Reward: 4, Q_max: 4.4796, eps: 0.9040, total_step: 121
+total_reward:  79  total_step:  1001
+Episode: 537, Reward: 3, Q_max: 4.5429, eps: 0.9144, total_step: 108
+total_reward:  78  total_step:  1001
+Episode: 538, Reward: 1, Q_max: 4.4358, eps: 0.9024, total_step: 123
+total_reward:  34  total_step:  499
+Episode: 539, Reward: 5, Q_max: 4.2673, eps: 0.8968, total_step: 130
+total_reward:  4  total_step:  101
+Episode: 540, Reward: 2, Q_max: 4.2795, eps: 0.9112, total_step: 112
+total_reward:  6  total_step:  137
+Episode: 541, Reward: 1, Q_max: 4.5365, eps: 0.9184, total_step: 103
+total_reward:  47  total_step:  553
+Episode: 542, Reward: 2, Q_max: 3.9473, eps: 0.9104, total_step: 113
+total_reward:  74  total_step:  901
+Episode: 543, Reward: 1, Q_max: 4.9411, eps: 0.9208, total_step: 100
+total_reward:  46  total_step:  599
+Episode: 544, Reward: 5, Q_max: 4.3096, eps: 0.9120, total_step: 111
+total_reward:  22  total_step:  269
+Episode: 545, Reward: 4, Q_max: 4.5581, eps: 0.9192, total_step: 102
+total_reward:  36  total_step:  455
+Episode: 546, Reward: 2, Q_max: 4.4474, eps: 0.9160, total_step: 106
+total_reward:  83  total_step:  1001
+Episode: 547, Reward: 3, Q_max: 4.4401, eps: 0.9160, total_step: 106
+total_reward:  65  total_step:  711
+Episode: 548, Reward: 3, Q_max: 4.4142, eps: 0.9096, total_step: 114
+total_reward:  77  total_step:  1001
+Episode: 549, Reward: 3, Q_max: 4.1915, eps: 0.9120, total_step: 111
+total_reward:  30  total_step:  479
+Episode: 550, Reward: 1, Q_max: 4.0212, eps: 0.9200, total_step: 101
+total_reward:  38  total_step:  474
+Episode: 551, Reward: 1, Q_max: 5.2253, eps: 0.9144, total_step: 108
+total_reward:  40  total_step:  566
+Episode: 552, Reward: 2, Q_max: 4.1895, eps: 0.9128, total_step: 110
+total_reward:  46  total_step:  579
+Episode: 553, Reward: 1, Q_max: 5.0683, eps: 0.9208, total_step: 100
+total_reward:  15  total_step:  209
+Episode: 554, Reward: 3, Q_max: 4.1468, eps: 0.9184, total_step: 103
+total_reward:  12  total_step:  186
+Episode: 555, Reward: 1, Q_max: 4.4291, eps: 0.9168, total_step: 105
+total_reward:  40  total_step:  526
+Episode: 556, Reward: 2, Q_max: 4.5450, eps: 0.9016, total_step: 124
+total_reward:  84  total_step:  1001
+Episode: 557, Reward: 3, Q_max: 4.4007, eps: 0.9160, total_step: 106
+total_reward:  6  total_step:  119
+Episode: 558, Reward: 3, Q_max: 4.9826, eps: 0.9128, total_step: 110
+total_reward:  52  total_step:  619
+Episode: 559, Reward: 1, Q_max: 4.9881, eps: 0.9200, total_step: 101
+total_reward:  66  total_step:  788
+Episode: 560, Reward: 3, Q_max: 4.8558, eps: 0.9008, total_step: 125
+total_reward:  6  total_step:  106
+Episode: 561, Reward: 1, Q_max: 4.8127, eps: 0.9168, total_step: 105
+total_reward:  71  total_step:  888
+Episode: 562, Reward: 5, Q_max: 4.5572, eps: 0.8992, total_step: 127
+total_reward:  74  total_step:  847
+Episode: 563, Reward: 1, Q_max: 4.3959, eps: 0.9096, total_step: 114
+total_reward:  10  total_step:  210
+Episode: 564, Reward: 1, Q_max: 4.1264, eps: 0.9200, total_step: 101
+total_reward:  89  total_step:  1001
+Episode: 565, Reward: 0, Q_max: 4.4082, eps: 0.9200, total_step: 101
+total_reward:  13  total_step:  235
+Episode: 566, Reward: 2, Q_max: 4.6714, eps: 0.9192, total_step: 102
+total_reward:  58  total_step:  773
+Episode: 567, Reward: 3, Q_max: 5.1372, eps: 0.9160, total_step: 106
+total_reward:  12  total_step:  213
+Episode: 568, Reward: 3, Q_max: 4.5045, eps: 0.9184, total_step: 103
+total_reward:  10  total_step:  172
+Episode: 569, Reward: 1, Q_max: 4.5200, eps: 0.9072, total_step: 117
+total_reward:  61  total_step:  710
+Episode: 570, Reward: 1, Q_max: 4.6021, eps: 0.9208, total_step: 100
+total_reward:  6  total_step:  101
+Episode: 571, Reward: 5, Q_max: 4.3443, eps: 0.8800, total_step: 151
+total_reward:  17  total_step:  278
+Episode: 572, Reward: 5, Q_max: 4.0517, eps: 0.8640, total_step: 171
+total_reward:  35  total_step:  466
+Episode: 573, Reward: 1, Q_max: 3.6243, eps: 0.9208, total_step: 100
+total_reward:  85  total_step:  1001
+Episode: 574, Reward: 0, Q_max: 4.4679, eps: 0.9160, total_step: 106
+total_reward:  82  total_step:  1001
+Episode: 575, Reward: 2, Q_max: 4.2460, eps: 0.9160, total_step: 106
+total_reward:  18  total_step:  255
+Episode: 576, Reward: 2, Q_max: 4.0975, eps: 0.9040, total_step: 121
+total_reward:  51  total_step:  663
+Episode: 577, Reward: 1, Q_max: 4.4094, eps: 0.9208, total_step: 100
+total_reward:  76  total_step:  1001
+Episode: 578, Reward: 0, Q_max: 4.5677, eps: 0.9192, total_step: 102
+total_reward:  39  total_step:  560
+Episode: 579, Reward: 1, Q_max: 4.0657, eps: 0.9208, total_step: 100
+total_reward:  81  total_step:  1001
+Episode: 580, Reward: 0, Q_max: 4.1374, eps: 0.9176, total_step: 104
+total_reward:  27  total_step:  356
+Episode: 581, Reward: 4, Q_max: 4.6829, eps: 0.8856, total_step: 144
+total_reward:  23  total_step:  334
+Episode: 582, Reward: 2, Q_max: 4.2003, eps: 0.9048, total_step: 120
+total_reward:  19  total_step:  313
+Episode: 583, Reward: 0, Q_max: 3.5883, eps: 0.9160, total_step: 106
+total_reward:  77  total_step:  1001
+Episode: 584, Reward: 3, Q_max: 4.4751, eps: 0.9160, total_step: 106
+total_reward:  7  total_step:  158
+Episode: 585, Reward: 2, Q_max: 4.2128, eps: 0.9088, total_step: 115
+total_reward:  19  total_step:  282
+Episode: 586, Reward: 1, Q_max: 3.8892, eps: 0.9192, total_step: 102
+total_reward:  32  total_step:  430
+Episode: 587, Reward: 1, Q_max: 3.8681, eps: 0.9208, total_step: 100
+total_reward:  87  total_step:  1001
+Episode: 588, Reward: 0, Q_max: 4.1173, eps: 0.9200, total_step: 101
+total_reward:  56  total_step:  743
+Episode: 589, Reward: 2, Q_max: 4.7951, eps: 0.9208, total_step: 100
+total_reward:  8  total_step:  182
+Episode: 590, Reward: 2, Q_max: 4.2051, eps: 0.9064, total_step: 118
+total_reward:  5  total_step:  124
+Episode: 591, Reward: 1, Q_max: 4.0642, eps: 0.9080, total_step: 116
+total_reward:  24  total_step:  299
+Episode: 592, Reward: 1, Q_max: 4.1882, eps: 0.9136, total_step: 109
+total_reward:  80  total_step:  1001
+Episode: 593, Reward: 1, Q_max: 3.9765, eps: 0.9160, total_step: 106
+total_reward:  78  total_step:  1001
+Episode: 594, Reward: 1, Q_max: 4.0496, eps: 0.9104, total_step: 113
+total_reward:  45  total_step:  580
+Episode: 595, Reward: 8, Q_max: 4.7393, eps: 0.8824, total_step: 148
+total_reward:  9  total_step:  137
+Episode: 596, Reward: 3, Q_max: 4.5534, eps: 0.9160, total_step: 106
+total_reward:  2  total_step:  100
+Episode: 597, Reward: 0, Q_max: 4.5440, eps: 0.9120, total_step: 111
+total_reward:  81  total_step:  906
+Episode: 598, Reward: 0, Q_max: 4.2576, eps: 0.9192, total_step: 102
+total_reward:  13  total_step:  216
+Episode: 599, Reward: 3, Q_max: 4.8104, eps: 0.9064, total_step: 118
+total_reward:  38  total_step:  501
+Episode: 600, Reward: 1, Q_max: 4.6224, eps: 0.9056, total_step: 119
+total_reward:  46  total_step:  627
+Episode: 601, Reward: 5, Q_max: 5.7414, eps: 0.9168, total_step: 105
+total_reward:  19  total_step:  281
+Episode: 602, Reward: 0, Q_max: 5.0904, eps: 0.9208, total_step: 100
+total_reward:  65  total_step:  813
+Episode: 603, Reward: 3, Q_max: 4.9999, eps: 0.9176, total_step: 104
+total_reward:  85  total_step:  1001
+Episode: 604, Reward: 4, Q_max: 3.9976, eps: 0.8984, total_step: 128
+total_reward:  9  total_step:  138
+Episode: 605, Reward: 0, Q_max: 4.0089, eps: 0.9144, total_step: 108
+total_reward:  32  total_step:  425
+Episode: 606, Reward: 1, Q_max: 4.0088, eps: 0.9144, total_step: 108
+total_reward:  80  total_step:  1001
+Episode: 607, Reward: 2, Q_max: 4.7011, eps: 0.9176, total_step: 104
+total_reward:  5  total_step:  143
+Episode: 608, Reward: 4, Q_max: 4.2886, eps: 0.9184, total_step: 103
+total_reward:  13  total_step:  192
+Episode: 609, Reward: 1, Q_max: 4.5544, eps: 0.9104, total_step: 113
+total_reward:  23  total_step:  311
+Episode: 610, Reward: 0, Q_max: 4.0807, eps: 0.9200, total_step: 101
+total_reward:  32  total_step:  445
+Episode: 611, Reward: 4, Q_max: 4.4559, eps: 0.9064, total_step: 118
+total_reward:  79  total_step:  1001
+Episode: 612, Reward: 3, Q_max: 4.4763, eps: 0.9208, total_step: 100
+total_reward:  23  total_step:  416
+Episode: 613, Reward: 1, Q_max: 4.2619, eps: 0.9208, total_step: 100
+total_reward:  4  total_step:  111
+Episode: 614, Reward: 5, Q_max: 3.8759, eps: 0.8912, total_step: 137
+total_reward:  15  total_step:  210
+Episode: 615, Reward: 1, Q_max: 4.2271, eps: 0.9152, total_step: 107
+total_reward:  20  total_step:  264
+Episode: 616, Reward: 3, Q_max: 4.2634, eps: 0.9072, total_step: 117
+total_reward:  70  total_step:  886
+Episode: 617, Reward: 0, Q_max: 4.6595, eps: 0.9192, total_step: 102
+total_reward:  37  total_step:  424
+Episode: 618, Reward: 2, Q_max: 4.9925, eps: 0.9152, total_step: 107
+total_reward:  44  total_step:  530
+Episode: 619, Reward: 1, Q_max: 4.0211, eps: 0.9208, total_step: 100
+total_reward:  33  total_step:  427
+Episode: 620, Reward: 4, Q_max: 4.5572, eps: 0.9120, total_step: 111
+total_reward:  85  total_step:  1001
+Episode: 621, Reward: 0, Q_max: 3.9705, eps: 0.9096, total_step: 114
+total_reward:  89  total_step:  1001
+Episode: 622, Reward: 5, Q_max: 5.0263, eps: 0.9112, total_step: 112
+total_reward:  85  total_step:  1001
+Episode: 623, Reward: 3, Q_max: 4.1123, eps: 0.8952, total_step: 132
+total_reward:  3  total_step:  117
+Episode: 624, Reward: 3, Q_max: 4.1728, eps: 0.9192, total_step: 102
+total_reward:  23  total_step:  329
+Episode: 625, Reward: 3, Q_max: 3.8614, eps: 0.9080, total_step: 116
+total_reward:  85  total_step:  1001
+Episode: 626, Reward: 4, Q_max: 4.5089, eps: 0.8952, total_step: 132
+total_reward:  68  total_step:  775
+Episode: 627, Reward: 3, Q_max: 4.1009, eps: 0.9200, total_step: 101
+total_reward:  24  total_step:  311
+Episode: 628, Reward: 2, Q_max: 4.4929, eps: 0.9192, total_step: 102
+total_reward:  6  total_step:  140
+Episode: 629, Reward: 1, Q_max: 4.1255, eps: 0.9176, total_step: 104
+total_reward:  62  total_step:  739
+Episode: 630, Reward: 2, Q_max: 4.3175, eps: 0.9104, total_step: 113
+total_reward:  90  total_step:  1001
+Episode: 631, Reward: 0, Q_max: 3.7308, eps: 0.9032, total_step: 122
+total_reward:  42  total_step:  501
+Episode: 632, Reward: 2, Q_max: 4.1394, eps: 0.9176, total_step: 104
+total_reward:  17  total_step:  222
+Episode: 633, Reward: 1, Q_max: 4.2122, eps: 0.9080, total_step: 116
+total_reward:  29  total_step:  403
+Episode: 634, Reward: 3, Q_max: 4.2335, eps: 0.8984, total_step: 128
+total_reward:  27  total_step:  359
+Episode: 635, Reward: 5, Q_max: 4.4412, eps: 0.8976, total_step: 129
+total_reward:  21  total_step:  272
+Episode: 636, Reward: 1, Q_max: 3.9703, eps: 0.9192, total_step: 102
+total_reward:  29  total_step:  412
+Episode: 637, Reward: 3, Q_max: 3.9351, eps: 0.9208, total_step: 100
+total_reward:  77  total_step:  921
+Episode: 638, Reward: 3, Q_max: 4.2130, eps: 0.8952, total_step: 132
+total_reward:  86  total_step:  1001
+Episode: 639, Reward: 0, Q_max: 4.0251, eps: 0.9208, total_step: 100
+total_reward:  20  total_step:  279
+Episode: 640, Reward: 1, Q_max: 3.5202, eps: 0.9144, total_step: 108
+total_reward:  88  total_step:  1001
+Episode: 641, Reward: 1, Q_max: 4.5017, eps: 0.9184, total_step: 103
+total_reward:  53  total_step:  766
+Episode: 642, Reward: 3, Q_max: 4.8474, eps: 0.9144, total_step: 108
+total_reward:  41  total_step:  535
+Episode: 643, Reward: 2, Q_max: 4.2710, eps: 0.9144, total_step: 108
+total_reward:  72  total_step:  1001
+Episode: 644, Reward: 3, Q_max: 4.9723, eps: 0.9192, total_step: 102
+total_reward:  70  total_step:  1001
+Episode: 645, Reward: 3, Q_max: 3.7967, eps: 0.8968, total_step: 130
+total_reward:  8  total_step:  110
+Episode: 646, Reward: 2, Q_max: 3.4180, eps: 0.9016, total_step: 124
+total_reward:  16  total_step:  224
+Episode: 647, Reward: 3, Q_max: 4.0735, eps: 0.9208, total_step: 100
+total_reward:  82  total_step:  1001
+Episode: 648, Reward: 2, Q_max: 4.8007, eps: 0.9208, total_step: 100
+total_reward:  25  total_step:  288
+Episode: 649, Reward: 2, Q_max: 3.3279, eps: 0.9168, total_step: 105
+total_reward:  50  total_step:  651
+Episode: 650, Reward: 1, Q_max: 4.2065, eps: 0.9200, total_step: 101
+total_reward:  5  total_step:  103
+Episode: 651, Reward: 3, Q_max: 4.2182, eps: 0.9200, total_step: 101
+total_reward:  82  total_step:  1001
+Episode: 652, Reward: 3, Q_max: 3.8881, eps: 0.8864, total_step: 143
+total_reward:  61  total_step:  776
+Episode: 653, Reward: 4, Q_max: 4.1684, eps: 0.8968, total_step: 130
+total_reward:  38  total_step:  476
+Episode: 654, Reward: 0, Q_max: 3.3141, eps: 0.9184, total_step: 103
+total_reward:  9  total_step:  151
+Episode: 655, Reward: 4, Q_max: 3.9276, eps: 0.8664, total_step: 168
+total_reward:  78  total_step:  938
+Episode: 656, Reward: 1, Q_max: 4.6050, eps: 0.9168, total_step: 105
+total_reward:  8  total_step:  115
+Episode: 657, Reward: 2, Q_max: 4.7996, eps: 0.9208, total_step: 100
+total_reward:  12  total_step:  206
+Episode: 658, Reward: 2, Q_max: 3.8167, eps: 0.9200, total_step: 101
+total_reward:  32  total_step:  523
+Episode: 659, Reward: 1, Q_max: 4.2946, eps: 0.9128, total_step: 110
+total_reward:  56  total_step:  651
+Episode: 660, Reward: 0, Q_max: 4.3866, eps: 0.9200, total_step: 101
+total_reward:  48  total_step:  651
+Episode: 661, Reward: 3, Q_max: 4.7114, eps: 0.9120, total_step: 111
+total_reward:  87  total_step:  1001
+Episode: 662, Reward: 3, Q_max: 4.6990, eps: 0.9088, total_step: 115
+total_reward:  78  total_step:  1001
+Episode: 663, Reward: 1, Q_max: 4.4590, eps: 0.9192, total_step: 102
+total_reward:  9  total_step:  141
+Episode: 664, Reward: 3, Q_max: 4.4925, eps: 0.9096, total_step: 114
+total_reward:  26  total_step:  353
+Episode: 665, Reward: 1, Q_max: 3.9216, eps: 0.9200, total_step: 101
+total_reward:  7  total_step:  106
+Episode: 666, Reward: 2, Q_max: 4.0166, eps: 0.9168, total_step: 105
+total_reward:  9  total_step:  173
+Episode: 667, Reward: 1, Q_max: 3.5910, eps: 0.9008, total_step: 125
+total_reward:  58  total_step:  815
+Episode: 668, Reward: 4, Q_max: 3.9575, eps: 0.9080, total_step: 116
+total_reward:  54  total_step:  674
+Episode: 669, Reward: 0, Q_max: 3.9759, eps: 0.9096, total_step: 114
+total_reward:  88  total_step:  1001
+Episode: 670, Reward: 1, Q_max: 3.8952, eps: 0.9104, total_step: 113
+total_reward:  17  total_step:  196
+Episode: 671, Reward: 2, Q_max: 3.6964, eps: 0.9136, total_step: 109
+total_reward:  82  total_step:  909
+Episode: 672, Reward: 2, Q_max: 3.6731, eps: 0.9120, total_step: 111
+total_reward:  21  total_step:  338
+Episode: 673, Reward: 2, Q_max: 3.7924, eps: 0.9200, total_step: 101
+total_reward:  82  total_step:  1001
+Episode: 674, Reward: 1, Q_max: 3.7473, eps: 0.9184, total_step: 103
+total_reward:  87  total_step:  991
+Episode: 675, Reward: 2, Q_max: 4.2334, eps: 0.9104, total_step: 113
+total_reward:  57  total_step:  662
+Episode: 676, Reward: 0, Q_max: 4.3813, eps: 0.9176, total_step: 104
+total_reward:  73  total_step:  1001
+Episode: 677, Reward: 0, Q_max: 4.0883, eps: 0.9208, total_step: 100
+total_reward:  85  total_step:  1001
+Episode: 678, Reward: 0, Q_max: 4.1719, eps: 0.9168, total_step: 105
+total_reward:  8  total_step:  154
+Episode: 679, Reward: 2, Q_max: 3.6429, eps: 0.9152, total_step: 107
+total_reward:  52  total_step:  708
+Episode: 680, Reward: 1, Q_max: 3.4645, eps: 0.9152, total_step: 107
+total_reward:  84  total_step:  1001
+Episode: 681, Reward: 3, Q_max: 3.4936, eps: 0.9008, total_step: 125
+total_reward:  88  total_step:  1001
+Episode: 682, Reward: 0, Q_max: 3.4397, eps: 0.9200, total_step: 101
+total_reward:  48  total_step:  621
+Episode: 683, Reward: 4, Q_max: 4.2560, eps: 0.9168, total_step: 105
+total_reward:  10  total_step:  145
+Episode: 684, Reward: 2, Q_max: 4.3538, eps: 0.9168, total_step: 105
+total_reward:  70  total_step:  841
+Episode: 685, Reward: 4, Q_max: 4.1295, eps: 0.9080, total_step: 116
+total_reward:  82  total_step:  985
+Episode: 686, Reward: 2, Q_max: 4.1258, eps: 0.9168, total_step: 105
+total_reward:  73  total_step:  939
+Episode: 687, Reward: 0, Q_max: 3.9903, eps: 0.9192, total_step: 102
+total_reward:  15  total_step:  214
+Episode: 688, Reward: 1, Q_max: 4.3016, eps: 0.9176, total_step: 104
+total_reward:  89  total_step:  1001
+Episode: 689, Reward: 3, Q_max: 4.6837, eps: 0.9168, total_step: 105
+total_reward:  13  total_step:  196
+Episode: 690, Reward: 2, Q_max: 3.9283, eps: 0.9168, total_step: 105
+total_reward:  81  total_step:  1001
+Episode: 691, Reward: 2, Q_max: 4.4398, eps: 0.9176, total_step: 104
+total_reward:  17  total_step:  236
+Episode: 692, Reward: 1, Q_max: 3.1064, eps: 0.9144, total_step: 108
+total_reward:  84  total_step:  1001
+Episode: 693, Reward: 3, Q_max: 3.2739, eps: 0.8608, total_step: 175
+total_reward:  62  total_step:  744
+Episode: 694, Reward: 6, Q_max: 3.9042, eps: 0.8712, total_step: 162
+total_reward:  26  total_step:  338
+Episode: 695, Reward: 4, Q_max: 4.0044, eps: 0.9112, total_step: 112
+total_reward:  77  total_step:  1001
+Episode: 696, Reward: 3, Q_max: 4.2643, eps: 0.9088, total_step: 115
+total_reward:  83  total_step:  1001
+Episode: 697, Reward: 0, Q_max: 3.6853, eps: 0.9184, total_step: 103
+total_reward:  8  total_step:  127
+Episode: 698, Reward: 1, Q_max: 3.5535, eps: 0.9112, total_step: 112
+total_reward:  21  total_step:  325
+Episode: 699, Reward: 1, Q_max: 3.5727, eps: 0.9168, total_step: 105
+total_reward:  82  total_step:  1001
+Episode: 700, Reward: 2, Q_max: 3.6737, eps: 0.9088, total_step: 115
+total_reward:  36  total_step:  448
+Episode: 701, Reward: 2, Q_max: 3.9847, eps: 0.9208, total_step: 100
+total_reward:  7  total_step:  153
+Episode: 702, Reward: 1, Q_max: 3.6151, eps: 0.9144, total_step: 108
+total_reward:  4  total_step:  110
+Episode: 703, Reward: 1, Q_max: 4.2375, eps: 0.9208, total_step: 100
+total_reward:  71  total_step:  924
+Episode: 704, Reward: 1, Q_max: 4.0937, eps: 0.9200, total_step: 101
+total_reward:  42  total_step:  563
+Episode: 705, Reward: 1, Q_max: 3.1364, eps: 0.9176, total_step: 104
+total_reward:  79  total_step:  987
+Episode: 706, Reward: 1, Q_max: 4.1305, eps: 0.9200, total_step: 101
+total_reward:  13  total_step:  215
+Episode: 707, Reward: 3, Q_max: 3.4135, eps: 0.8992, total_step: 127
+total_reward:  78  total_step:  1001
+Episode: 708, Reward: 3, Q_max: 3.6613, eps: 0.9208, total_step: 100
+total_reward:  59  total_step:  707
+Episode: 709, Reward: 3, Q_max: 3.3235, eps: 0.8912, total_step: 137
+total_reward:  76  total_step:  1001
+Episode: 710, Reward: 10, Q_max: 3.8190, eps: 0.8344, total_step: 208
+total_reward:  11  total_step:  148
+Episode: 711, Reward: 1, Q_max: 3.7801, eps: 0.9208, total_step: 100
+total_reward:  27  total_step:  319
+Episode: 712, Reward: 2, Q_max: 3.6325, eps: 0.9168, total_step: 105
+total_reward:  16  total_step:  280
+Episode: 713, Reward: 4, Q_max: 4.3793, eps: 0.8928, total_step: 135
+total_reward:  38  total_step:  470
+Episode: 714, Reward: 3, Q_max: 4.3153, eps: 0.9120, total_step: 111
+total_reward:  43  total_step:  548
+Episode: 715, Reward: 2, Q_max: 3.4464, eps: 0.9160, total_step: 106
+total_reward:  25  total_step:  287
+Episode: 716, Reward: 3, Q_max: 3.8160, eps: 0.9168, total_step: 105
+total_reward:  65  total_step:  763
+Episode: 717, Reward: 2, Q_max: 4.4266, eps: 0.9200, total_step: 101
+total_reward:  12  total_step:  213
+Episode: 718, Reward: 1, Q_max: 4.0594, eps: 0.9184, total_step: 103
+total_reward:  30  total_step:  416
+Episode: 719, Reward: 2, Q_max: 3.8742, eps: 0.9160, total_step: 106
+total_reward:  7  total_step:  111
+Episode: 720, Reward: 2, Q_max: 3.4168, eps: 0.9208, total_step: 100
+total_reward:  67  total_step:  732
+Episode: 721, Reward: 3, Q_max: 4.0832, eps: 0.8976, total_step: 129
+total_reward:  31  total_step:  422
+Episode: 722, Reward: 2, Q_max: 4.0182, eps: 0.9176, total_step: 104
+total_reward:  92  total_step:  1001
+Episode: 723, Reward: 2, Q_max: 3.3223, eps: 0.9176, total_step: 104
+total_reward:  26  total_step:  312
+Episode: 724, Reward: 2, Q_max: 3.8810, eps: 0.9096, total_step: 114
+total_reward:  80  total_step:  1001
+Episode: 725, Reward: 1, Q_max: 4.4196, eps: 0.9168, total_step: 105
+total_reward:  63  total_step:  729
+Episode: 726, Reward: 0, Q_max: 4.2152, eps: 0.9200, total_step: 101
+total_reward:  74  total_step:  1001
+Episode: 727, Reward: 2, Q_max: 3.6616, eps: 0.9168, total_step: 105
+total_reward:  44  total_step:  599
+Episode: 728, Reward: 0, Q_max: 4.1701, eps: 0.9184, total_step: 103
+total_reward:  73  total_step:  899
+Episode: 729, Reward: 5, Q_max: 4.2478, eps: 0.8880, total_step: 141
+total_reward:  89  total_step:  1001
+Episode: 730, Reward: 3, Q_max: 3.5458, eps: 0.9200, total_step: 101
+total_reward:  86  total_step:  1001
+Episode: 731, Reward: 4, Q_max: 3.5609, eps: 0.9128, total_step: 110
+total_reward:  79  total_step:  1001
+Episode: 732, Reward: 2, Q_max: 3.8013, eps: 0.9208, total_step: 100
+total_reward:  36  total_step:  476
+Episode: 733, Reward: 1, Q_max: 3.3680, eps: 0.9200, total_step: 101
+total_reward:  72  total_step:  1001
+Episode: 734, Reward: 3, Q_max: 4.1107, eps: 0.9184, total_step: 103
+total_reward:  77  total_step:  1001
+Episode: 735, Reward: 0, Q_max: 3.2968, eps: 0.9184, total_step: 103
+total_reward:  36  total_step:  435
+Episode: 736, Reward: 2, Q_max: 4.8598, eps: 0.9176, total_step: 104
+total_reward:  37  total_step:  503
+Episode: 737, Reward: 1, Q_max: 3.8297, eps: 0.9192, total_step: 102
+total_reward:  85  total_step:  1001
+Episode: 738, Reward: 0, Q_max: 3.8344, eps: 0.9200, total_step: 101
+total_reward:  54  total_step:  711
+Episode: 739, Reward: 3, Q_max: 3.7693, eps: 0.9200, total_step: 101
+total_reward:  92  total_step:  1001
+Episode: 740, Reward: 0, Q_max: 3.3542, eps: 0.9200, total_step: 101
+total_reward:  23  total_step:  310
+Episode: 741, Reward: 5, Q_max: 3.8086, eps: 0.8512, total_step: 187
+total_reward:  15  total_step:  217
+Episode: 742, Reward: 3, Q_max: 3.7317, eps: 0.9184, total_step: 103
+total_reward:  35  total_step:  475
+Episode: 743, Reward: 3, Q_max: 3.2947, eps: 0.9088, total_step: 115
+total_reward:  56  total_step:  800
+Episode: 744, Reward: 1, Q_max: 4.0114, eps: 0.9192, total_step: 102
+total_reward:  82  total_step:  1001
+Episode: 745, Reward: 1, Q_max: 3.6491, eps: 0.9136, total_step: 109
+total_reward:  87  total_step:  1001
+Episode: 746, Reward: 4, Q_max: 3.4040, eps: 0.9016, total_step: 124
+total_reward:  10  total_step:  162
+Episode: 747, Reward: 2, Q_max: 3.8806, eps: 0.9144, total_step: 108
+total_reward:  52  total_step:  725
+Episode: 748, Reward: 0, Q_max: 3.3090, eps: 0.9192, total_step: 102
+total_reward:  88  total_step:  1001
+Episode: 749, Reward: 1, Q_max: 3.2653, eps: 0.9200, total_step: 101
+total_reward:  23  total_step:  313
+Episode: 750, Reward: 2, Q_max: 3.2933, eps: 0.9048, total_step: 120
+total_reward:  6  total_step:  131
+Episode: 751, Reward: 5, Q_max: 3.6589, eps: 0.8848, total_step: 145
+total_reward:  30  total_step:  402
+Episode: 752, Reward: 2, Q_max: 4.0505, eps: 0.9208, total_step: 100
+total_reward:  84  total_step:  1001
+Episode: 753, Reward: 2, Q_max: 4.0807, eps: 0.9144, total_step: 108
+total_reward:  14  total_step:  187
+Episode: 754, Reward: 1, Q_max: 3.6229, eps: 0.9208, total_step: 100
+total_reward:  26  total_step:  371
+Episode: 755, Reward: 1, Q_max: 4.2158, eps: 0.9208, total_step: 100
+total_reward:  74  total_step:  1001
+Episode: 756, Reward: 2, Q_max: 3.9775, eps: 0.9208, total_step: 100
+total_reward:  78  total_step:  1001
+Episode: 757, Reward: 6, Q_max: 4.2460, eps: 0.8816, total_step: 149
+total_reward:  75  total_step:  1001
+Episode: 758, Reward: 5, Q_max: 3.7679, eps: 0.8720, total_step: 161
+total_reward:  93  total_step:  1001
+Episode: 759, Reward: 2, Q_max: 4.0420, eps: 0.9016, total_step: 124
+total_reward:  80  total_step:  1001
+Episode: 760, Reward: 2, Q_max: 3.7884, eps: 0.9072, total_step: 117
+total_reward:  65  total_step:  866
+Episode: 761, Reward: 3, Q_max: 3.6428, eps: 0.9040, total_step: 121
+total_reward:  14  total_step:  219
+Episode: 762, Reward: 3, Q_max: 4.1758, eps: 0.9160, total_step: 106
+total_reward:  82  total_step:  1001
+Episode: 763, Reward: 1, Q_max: 4.0304, eps: 0.9184, total_step: 103
+total_reward:  94  total_step:  1001
+Episode: 764, Reward: 1, Q_max: 4.3589, eps: 0.9184, total_step: 103
+total_reward:  37  total_step:  490
+Episode: 765, Reward: 2, Q_max: 3.5603, eps: 0.9128, total_step: 110
+total_reward:  14  total_step:  223
+Episode: 766, Reward: 0, Q_max: 3.6581, eps: 0.9192, total_step: 102
+total_reward:  9  total_step:  133
+Episode: 767, Reward: 0, Q_max: 3.3271, eps: 0.9152, total_step: 107
+total_reward:  16  total_step:  197
+Episode: 768, Reward: 3, Q_max: 3.7714, eps: 0.9168, total_step: 105
+total_reward:  19  total_step:  309
+Episode: 769, Reward: 2, Q_max: 3.9407, eps: 0.9160, total_step: 106
+total_reward:  57  total_step:  643
+Episode: 770, Reward: 3, Q_max: 3.8027, eps: 0.9008, total_step: 125
+total_reward:  26  total_step:  293
+Episode: 771, Reward: 1, Q_max: 3.5876, eps: 0.9192, total_step: 102
+total_reward:  38  total_step:  471
+Episode: 772, Reward: 2, Q_max: 3.0314, eps: 0.9040, total_step: 121
+total_reward:  21  total_step:  278
+Episode: 773, Reward: 1, Q_max: 3.4689, eps: 0.9176, total_step: 104
+total_reward:  10  total_step:  181
+Episode: 774, Reward: 1, Q_max: 3.5218, eps: 0.9160, total_step: 106
+total_reward:  14  total_step:  278
+Episode: 775, Reward: 3, Q_max: 3.6272, eps: 0.9200, total_step: 101
+total_reward:  6  total_step:  116
+Episode: 776, Reward: 2, Q_max: 4.5297, eps: 0.9072, total_step: 117
+total_reward:  48  total_step:  673
+Episode: 777, Reward: 6, Q_max: 3.9709, eps: 0.8816, total_step: 149
+total_reward:  46  total_step:  665
+Episode: 778, Reward: 2, Q_max: 3.8551, eps: 0.9160, total_step: 106
+total_reward:  13  total_step:  204
+Episode: 779, Reward: 4, Q_max: 3.5533, eps: 0.9144, total_step: 108
+total_reward:  20  total_step:  269
+Episode: 780, Reward: 0, Q_max: 3.0255, eps: 0.9192, total_step: 102
+total_reward:  21  total_step:  247
+Episode: 781, Reward: 0, Q_max: 3.6492, eps: 0.9200, total_step: 101
+total_reward:  88  total_step:  1001
+Episode: 782, Reward: 2, Q_max: 3.5843, eps: 0.9184, total_step: 103
+total_reward:  81  total_step:  1001
+Episode: 783, Reward: 4, Q_max: 4.2461, eps: 0.9136, total_step: 109
+total_reward:  7  total_step:  149
+Episode: 784, Reward: 3, Q_max: 4.2633, eps: 0.9112, total_step: 112
+total_reward:  82  total_step:  1001
+Episode: 785, Reward: 1, Q_max: 4.1001, eps: 0.9200, total_step: 101
+total_reward:  32  total_step:  485
+Episode: 786, Reward: 1, Q_max: 3.1251, eps: 0.9176, total_step: 104
+total_reward:  72  total_step:  915
+Episode: 787, Reward: 0, Q_max: 3.6650, eps: 0.9208, total_step: 100
+total_reward:  29  total_step:  545
+Episode: 788, Reward: 2, Q_max: 3.5097, eps: 0.9200, total_step: 101
+total_reward:  37  total_step:  476
+Episode: 789, Reward: 4, Q_max: 3.9054, eps: 0.9096, total_step: 114
+total_reward:  52  total_step:  713
+Episode: 790, Reward: 5, Q_max: 3.3062, eps: 0.8792, total_step: 152
+total_reward:  52  total_step:  632
+Episode: 791, Reward: 3, Q_max: 3.8654, eps: 0.9096, total_step: 114
+total_reward:  54  total_step:  749
+Episode: 792, Reward: 3, Q_max: 4.2596, eps: 0.9184, total_step: 103
+total_reward:  9  total_step:  144
+Episode: 793, Reward: 2, Q_max: 3.6746, eps: 0.9160, total_step: 106
+total_reward:  64  total_step:  846
+Episode: 794, Reward: 0, Q_max: 3.4496, eps: 0.9192, total_step: 102
+total_reward:  74  total_step:  1001
+Episode: 795, Reward: 0, Q_max: 3.2641, eps: 0.9208, total_step: 100
+total_reward:  18  total_step:  224
+Episode: 796, Reward: 1, Q_max: 2.5190, eps: 0.9120, total_step: 111
+total_reward:  31  total_step:  431
+Episode: 797, Reward: 3, Q_max: 3.2137, eps: 0.9184, total_step: 103
+total_reward:  32  total_step:  401
+Episode: 798, Reward: 1, Q_max: 3.1234, eps: 0.9168, total_step: 105
+total_reward:  40  total_step:  580
+Episode: 799, Reward: 5, Q_max: 3.4573, eps: 0.8800, total_step: 151
+total_reward:  30  total_step:  448
+Episode: 800, Reward: 6, Q_max: 3.3044, eps: 0.8816, total_step: 149
+total_reward:  42  total_step:  509
+Episode: 801, Reward: 0, Q_max: 3.4371, eps: 0.9192, total_step: 102
+total_reward:  8  total_step:  131
+Episode: 802, Reward: 1, Q_max: 3.6977, eps: 0.9168, total_step: 105
+total_reward:  86  total_step:  1001
+Episode: 803, Reward: 1, Q_max: 3.6729, eps: 0.9072, total_step: 117
+total_reward:  58  total_step:  673
+Episode: 804, Reward: 3, Q_max: 2.7488, eps: 0.8992, total_step: 127
+total_reward:  29  total_step:  371
+Episode: 805, Reward: 3, Q_max: 3.3428, eps: 0.9200, total_step: 101
+total_reward:  7  total_step:  104
+Episode: 806, Reward: 5, Q_max: 3.8836, eps: 0.8688, total_step: 165
+total_reward:  51  total_step:  598
+Episode: 807, Reward: 2, Q_max: 3.8343, eps: 0.9152, total_step: 107
+total_reward:  21  total_step:  323
+Episode: 808, Reward: 2, Q_max: 3.7531, eps: 0.9184, total_step: 103
+total_reward:  6  total_step:  152
+Episode: 809, Reward: 0, Q_max: 3.4946, eps: 0.9184, total_step: 103
+total_reward:  50  total_step:  654
+Episode: 810, Reward: 4, Q_max: 3.9384, eps: 0.9008, total_step: 125
+total_reward:  58  total_step:  793
+Episode: 811, Reward: 3, Q_max: 4.1603, eps: 0.9200, total_step: 101
+total_reward:  81  total_step:  1001
+Episode: 812, Reward: 2, Q_max: 3.7764, eps: 0.9128, total_step: 110
+total_reward:  80  total_step:  1001
+Episode: 813, Reward: 4, Q_max: 3.3997, eps: 0.8920, total_step: 136
+total_reward:  77  total_step:  1001
+Episode: 814, Reward: 2, Q_max: 3.9877, eps: 0.9168, total_step: 105
+total_reward:  61  total_step:  792
+Episode: 815, Reward: 1, Q_max: 3.4042, eps: 0.9208, total_step: 100
+total_reward:  42  total_step:  507
+Episode: 816, Reward: 3, Q_max: 3.9298, eps: 0.9168, total_step: 105
+total_reward:  68  total_step:  790
+Episode: 817, Reward: 3, Q_max: 3.3708, eps: 0.9168, total_step: 105
+total_reward:  26  total_step:  369
+Episode: 818, Reward: 3, Q_max: 3.9914, eps: 0.9152, total_step: 107
+total_reward:  84  total_step:  1001
+Episode: 819, Reward: 0, Q_max: 2.7977, eps: 0.9184, total_step: 103
+total_reward:  29  total_step:  409
+Episode: 820, Reward: 3, Q_max: 3.0053, eps: 0.8952, total_step: 132
+total_reward:  29  total_step:  421
+Episode: 821, Reward: 3, Q_max: 3.2245, eps: 0.9000, total_step: 126
+total_reward:  84  total_step:  1001
+Episode: 822, Reward: 3, Q_max: 3.6107, eps: 0.9208, total_step: 100
+total_reward:  12  total_step:  203
+Episode: 823, Reward: 1, Q_max: 3.5535, eps: 0.9200, total_step: 101
+total_reward:  82  total_step:  1001
+Episode: 824, Reward: 4, Q_max: 3.6994, eps: 0.8904, total_step: 138
+total_reward:  26  total_step:  337
+Episode: 825, Reward: 2, Q_max: 3.2230, eps: 0.9144, total_step: 108
+total_reward:  80  total_step:  1001
+Episode: 826, Reward: 1, Q_max: 3.6320, eps: 0.9192, total_step: 102
+total_reward:  21  total_step:  244
+Episode: 827, Reward: 0, Q_max: 3.2714, eps: 0.9192, total_step: 102
+total_reward:  7  total_step:  127
+Episode: 828, Reward: 1, Q_max: 3.4662, eps: 0.9200, total_step: 101
+total_reward:  28  total_step:  316
+Episode: 829, Reward: 0, Q_max: 2.5693, eps: 0.9200, total_step: 101
+total_reward:  21  total_step:  315
+Episode: 830, Reward: 3, Q_max: 3.2093, eps: 0.8960, total_step: 131
+total_reward:  20  total_step:  327
+Episode: 831, Reward: 3, Q_max: 3.0896, eps: 0.9200, total_step: 101
+total_reward:  16  total_step:  218
+Episode: 832, Reward: 1, Q_max: 3.4376, eps: 0.9144, total_step: 108
+total_reward:  36  total_step:  512
+Episode: 833, Reward: 0, Q_max: 2.8599, eps: 0.9200, total_step: 101
+total_reward:  48  total_step:  685
+Episode: 834, Reward: 5, Q_max: 3.7033, eps: 0.9168, total_step: 105
+total_reward:  27  total_step:  385
+Episode: 835, Reward: 1, Q_max: 2.7826, eps: 0.9144, total_step: 108
+total_reward:  22  total_step:  342
+Episode: 836, Reward: 0, Q_max: 3.0326, eps: 0.9056, total_step: 119
+total_reward:  8  total_step:  160
+Episode: 837, Reward: 4, Q_max: 3.5813, eps: 0.9104, total_step: 113
+total_reward:  86  total_step:  1001
+Episode: 838, Reward: 4, Q_max: 3.4450, eps: 0.9056, total_step: 119
+total_reward:  3  total_step:  120
+Episode: 839, Reward: 2, Q_max: 3.5931, eps: 0.9048, total_step: 120
+total_reward:  37  total_step:  492
+Episode: 840, Reward: 5, Q_max: 3.4025, eps: 0.8976, total_step: 129
+total_reward:  25  total_step:  350
+Episode: 841, Reward: 2, Q_max: 4.2400, eps: 0.9192, total_step: 102
+total_reward:  37  total_step:  496
+Episode: 842, Reward: 3, Q_max: 3.0195, eps: 0.9128, total_step: 110
+total_reward:  7  total_step:  100
+Episode: 843, Reward: 1, Q_max: 2.9802, eps: 0.9200, total_step: 101
+total_reward:  16  total_step:  264
+Episode: 844, Reward: 2, Q_max: 3.7927, eps: 0.9176, total_step: 104
+total_reward:  54  total_step:  639
+Episode: 845, Reward: 2, Q_max: 3.8645, eps: 0.9080, total_step: 116
+total_reward:  37  total_step:  392
+Episode: 846, Reward: 2, Q_max: 3.1262, eps: 0.9176, total_step: 104
+total_reward:  26  total_step:  322
+Episode: 847, Reward: 3, Q_max: 3.0758, eps: 0.9200, total_step: 101
+total_reward:  57  total_step:  687
+Episode: 848, Reward: 4, Q_max: 2.9760, eps: 0.8768, total_step: 155
+total_reward:  6  total_step:  125
+Episode: 849, Reward: 1, Q_max: 2.6408, eps: 0.9200, total_step: 101
+total_reward:  47  total_step:  551
+Episode: 850, Reward: 3, Q_max: 2.5735, eps: 0.9200, total_step: 101
+total_reward:  6  total_step:  118
+Episode: 851, Reward: 0, Q_max: 3.0461, eps: 0.9208, total_step: 100
+total_reward:  59  total_step:  748
+Episode: 852, Reward: 1, Q_max: 3.4282, eps: 0.9128, total_step: 110
+total_reward:  31  total_step:  368
+Episode: 853, Reward: 3, Q_max: 3.3320, eps: 0.9128, total_step: 110
+total_reward:  78  total_step:  947
+Episode: 854, Reward: 4, Q_max: 3.3927, eps: 0.9112, total_step: 112
+total_reward:  17  total_step:  272
+Episode: 855, Reward: 2, Q_max: 2.9130, eps: 0.9144, total_step: 108
+total_reward:  47  total_step:  616
+Episode: 856, Reward: 2, Q_max: 3.2054, eps: 0.9192, total_step: 102
+total_reward:  46  total_step:  599
+Episode: 857, Reward: 4, Q_max: 3.0140, eps: 0.8936, total_step: 134
+total_reward:  10  total_step:  194
+Episode: 858, Reward: 5, Q_max: 2.6578, eps: 0.8776, total_step: 154
+total_reward:  9  total_step:  164
+Episode: 859, Reward: 0, Q_max: 3.7832, eps: 0.9200, total_step: 101
+total_reward:  88  total_step:  1001
+Episode: 860, Reward: 3, Q_max: 3.3788, eps: 0.9208, total_step: 100
+total_reward:  65  total_step:  769
+Episode: 861, Reward: 6, Q_max: 3.0538, eps: 0.8976, total_step: 129
+total_reward:  13  total_step:  209
+Episode: 862, Reward: 0, Q_max: 2.6390, eps: 0.9208, total_step: 100
+total_reward:  77  total_step:  886
+Episode: 863, Reward: 1, Q_max: 2.9336, eps: 0.9112, total_step: 112
+total_reward:  15  total_step:  223
+Episode: 864, Reward: 1, Q_max: 3.3189, eps: 0.9176, total_step: 104
+total_reward:  15  total_step:  217
+Episode: 865, Reward: 6, Q_max: 4.1451, eps: 0.9072, total_step: 117
+total_reward:  51  total_step:  598
+Episode: 866, Reward: 0, Q_max: 3.1292, eps: 0.9208, total_step: 100
+total_reward:  50  total_step:  700
+Episode: 867, Reward: 0, Q_max: 3.4229, eps: 0.9184, total_step: 103
+total_reward:  39  total_step:  513
+Episode: 868, Reward: 3, Q_max: 3.3033, eps: 0.9120, total_step: 111
+total_reward:  70  total_step:  904
+Episode: 869, Reward: 2, Q_max: 2.6776, eps: 0.9200, total_step: 101
+total_reward:  67  total_step:  832
+Episode: 870, Reward: 2, Q_max: 3.3288, eps: 0.9080, total_step: 116
+total_reward:  5  total_step:  125
+Episode: 871, Reward: 2, Q_max: 2.5791, eps: 0.9208, total_step: 100
+total_reward:  11  total_step:  170
+Episode: 872, Reward: 1, Q_max: 2.7902, eps: 0.9128, total_step: 110
+total_reward:  78  total_step:  1001
+Episode: 873, Reward: 1, Q_max: 2.6565, eps: 0.9136, total_step: 109
+total_reward:  78  total_step:  1001
+Episode: 874, Reward: 2, Q_max: 3.1118, eps: 0.9072, total_step: 117
+total_reward:  48  total_step:  539
+Episode: 875, Reward: 4, Q_max: 3.3899, eps: 0.9208, total_step: 100
+total_reward:  15  total_step:  299
+Episode: 876, Reward: 1, Q_max: 3.1376, eps: 0.9208, total_step: 100
+total_reward:  86  total_step:  1001
+Episode: 877, Reward: 2, Q_max: 4.0814, eps: 0.9040, total_step: 121
+total_reward:  78  total_step:  1001
+Episode: 878, Reward: 2, Q_max: 3.8587, eps: 0.9184, total_step: 103
+total_reward:  19  total_step:  261
+Episode: 879, Reward: 1, Q_max: 3.4391, eps: 0.9136, total_step: 109
+total_reward:  23  total_step:  338
+Episode: 880, Reward: 2, Q_max: 2.8442, eps: 0.9192, total_step: 102
+total_reward:  53  total_step:  684
+Episode: 881, Reward: 2, Q_max: 3.1820, eps: 0.9040, total_step: 121
+total_reward:  26  total_step:  356
+Episode: 882, Reward: 2, Q_max: 3.1308, eps: 0.9192, total_step: 102
+total_reward:  67  total_step:  761
+Episode: 883, Reward: 1, Q_max: 3.0466, eps: 0.9072, total_step: 117
+total_reward:  61  total_step:  682
+Episode: 884, Reward: 0, Q_max: 3.3348, eps: 0.9168, total_step: 105
+total_reward:  14  total_step:  218
+Episode: 885, Reward: 1, Q_max: 2.8632, eps: 0.9112, total_step: 112
+total_reward:  19  total_step:  298
+Episode: 886, Reward: 1, Q_max: 2.4000, eps: 0.9208, total_step: 100
+total_reward:  48  total_step:  537
+Episode: 887, Reward: 1, Q_max: 2.4486, eps: 0.9168, total_step: 105
+total_reward:  80  total_step:  1001
+Episode: 888, Reward: 2, Q_max: 2.4110, eps: 0.9184, total_step: 103
+total_reward:  34  total_step:  410
+Episode: 889, Reward: 1, Q_max: 2.5165, eps: 0.9120, total_step: 111
+total_reward:  83  total_step:  1001
+Episode: 890, Reward: 2, Q_max: 2.7329, eps: 0.9136, total_step: 109
+total_reward:  84  total_step:  1001
+Episode: 891, Reward: 1, Q_max: 3.0942, eps: 0.9192, total_step: 102
+total_reward:  26  total_step:  385
+Episode: 892, Reward: 4, Q_max: 3.4889, eps: 0.8976, total_step: 129
+total_reward:  14  total_step:  176
+Episode: 893, Reward: 2, Q_max: 3.5429, eps: 0.9168, total_step: 105
+total_reward:  19  total_step:  254
+Episode: 894, Reward: 1, Q_max: 2.9917, eps: 0.9184, total_step: 103
+total_reward:  34  total_step:  468
+Episode: 895, Reward: 1, Q_max: 2.5820, eps: 0.9176, total_step: 104
+total_reward:  80  total_step:  1001
+Episode: 896, Reward: 1, Q_max: 2.9284, eps: 0.9048, total_step: 120
+total_reward:  4  total_step:  116
+Episode: 897, Reward: 1, Q_max: 3.4522, eps: 0.9160, total_step: 106
+total_reward:  31  total_step:  372
+Episode: 898, Reward: 4, Q_max: 3.3790, eps: 0.9192, total_step: 102
+total_reward:  83  total_step:  1001
+Episode: 899, Reward: 2, Q_max: 2.7762, eps: 0.9088, total_step: 115
+total_reward:  9  total_step:  178
+Episode: 900, Reward: 1, Q_max: 2.9121, eps: 0.9208, total_step: 100
+total_reward:  88  total_step:  1001
+Episode: 901, Reward: 1, Q_max: 4.1945, eps: 0.9176, total_step: 104
+total_reward:  81  total_step:  1001
+Episode: 902, Reward: 2, Q_max: 2.7832, eps: 0.9040, total_step: 121
+total_reward:  86  total_step:  1001
+Episode: 903, Reward: 0, Q_max: 3.1888, eps: 0.9208, total_step: 100
+total_reward:  93  total_step:  1001
+Episode: 904, Reward: 2, Q_max: 3.7890, eps: 0.9184, total_step: 103
+total_reward:  16  total_step:  287
+Episode: 905, Reward: 1, Q_max: 3.2293, eps: 0.9112, total_step: 112
+total_reward:  78  total_step:  1001
+Episode: 906, Reward: 6, Q_max: 3.4559, eps: 0.8824, total_step: 148
+total_reward:  62  total_step:  782
+Episode: 907, Reward: 1, Q_max: 2.7956, eps: 0.9000, total_step: 126
+total_reward:  60  total_step:  663
+Episode: 908, Reward: 3, Q_max: 3.0523, eps: 0.9136, total_step: 109
+total_reward:  58  total_step:  768
+Episode: 909, Reward: 2, Q_max: 4.0065, eps: 0.9208, total_step: 100
+total_reward:  13  total_step:  184
+Episode: 910, Reward: 1, Q_max: 2.6954, eps: 0.9208, total_step: 100
+total_reward:  63  total_step:  780
+Episode: 911, Reward: 2, Q_max: 2.3885, eps: 0.9064, total_step: 118
+total_reward:  15  total_step:  238
+Episode: 912, Reward: 1, Q_max: 2.3882, eps: 0.9088, total_step: 115
+total_reward:  72  total_step:  945
+Episode: 913, Reward: 3, Q_max: 3.5627, eps: 0.9176, total_step: 104
+total_reward:  11  total_step:  174
+Episode: 914, Reward: 1, Q_max: 3.3936, eps: 0.9072, total_step: 117
+total_reward:  44  total_step:  574
+Episode: 915, Reward: 3, Q_max: 3.1244, eps: 0.9168, total_step: 105
+total_reward:  7  total_step:  137
+Episode: 916, Reward: 3, Q_max: 2.7558, eps: 0.9032, total_step: 122
+total_reward:  83  total_step:  1001
+Episode: 917, Reward: 3, Q_max: 3.6591, eps: 0.9080, total_step: 116
+total_reward:  6  total_step:  123
+Episode: 918, Reward: 3, Q_max: 2.6577, eps: 0.9072, total_step: 117
+total_reward:  70  total_step:  1001
+Episode: 919, Reward: 2, Q_max: 2.7426, eps: 0.8872, total_step: 142
+total_reward:  91  total_step:  1001
+Episode: 920, Reward: 2, Q_max: 3.3702, eps: 0.9208, total_step: 100
+total_reward:  66  total_step:  718
+Episode: 921, Reward: 3, Q_max: 3.0777, eps: 0.9176, total_step: 104
+total_reward:  80  total_step:  1001
+Episode: 922, Reward: 2, Q_max: 2.9651, eps: 0.9160, total_step: 106
+total_reward:  83  total_step:  1001
+Episode: 923, Reward: 1, Q_max: 3.2401, eps: 0.9192, total_step: 102
+total_reward:  77  total_step:  941
+Episode: 924, Reward: 4, Q_max: 3.8634, eps: 0.8848, total_step: 145
+total_reward:  63  total_step:  706
+Episode: 925, Reward: 2, Q_max: 3.2510, eps: 0.9184, total_step: 103
+total_reward:  75  total_step:  1001
+Episode: 926, Reward: 2, Q_max: 2.8972, eps: 0.9200, total_step: 101
+total_reward:  83  total_step:  1001
+Episode: 927, Reward: 1, Q_max: 3.0200, eps: 0.9184, total_step: 103
+total_reward:  35  total_step:  417
+Episode: 928, Reward: 2, Q_max: 3.5812, eps: 0.8976, total_step: 129
+total_reward:  77  total_step:  967
+Episode: 929, Reward: 2, Q_max: 2.4117, eps: 0.9128, total_step: 110
+total_reward:  80  total_step:  1001
+Episode: 930, Reward: 1, Q_max: 3.5649, eps: 0.9096, total_step: 114
+total_reward:  16  total_step:  222
+Episode: 931, Reward: 3, Q_max: 2.5440, eps: 0.9008, total_step: 125
+total_reward:  58  total_step:  772
+Episode: 932, Reward: 3, Q_max: 3.0947, eps: 0.9184, total_step: 103
+total_reward:  29  total_step:  402
+Episode: 933, Reward: 1, Q_max: 2.6745, eps: 0.9136, total_step: 109
+total_reward:  15  total_step:  242
+Episode: 934, Reward: 1, Q_max: 2.8958, eps: 0.9208, total_step: 100
+total_reward:  47  total_step:  596
+Episode: 935, Reward: 2, Q_max: 3.7783, eps: 0.9096, total_step: 114
+total_reward:  23  total_step:  294
+Episode: 936, Reward: 1, Q_max: 3.2635, eps: 0.9168, total_step: 105
+total_reward:  14  total_step:  175
+Episode: 937, Reward: 2, Q_max: 3.3151, eps: 0.9184, total_step: 103
+total_reward:  36  total_step:  466
+Episode: 938, Reward: 3, Q_max: 3.9798, eps: 0.9208, total_step: 100
+total_reward:  56  total_step:  616
+Episode: 939, Reward: 1, Q_max: 3.4677, eps: 0.9144, total_step: 108
+total_reward:  83  total_step:  1001
+Episode: 940, Reward: 3, Q_max: 2.9509, eps: 0.9184, total_step: 103
+total_reward:  24  total_step:  291
+Episode: 941, Reward: 1, Q_max: 3.3611, eps: 0.9168, total_step: 105
+total_reward:  84  total_step:  1001
+Episode: 942, Reward: 1, Q_max: 3.2775, eps: 0.9176, total_step: 104
+total_reward:  17  total_step:  259
+Episode: 943, Reward: 2, Q_max: 3.9882, eps: 0.9184, total_step: 103
+total_reward:  83  total_step:  1001
+Episode: 944, Reward: 5, Q_max: 4.2099, eps: 0.9080, total_step: 116
+total_reward:  69  total_step:  1001
+Episode: 945, Reward: 1, Q_max: 3.4641, eps: 0.9184, total_step: 103
+total_reward:  85  total_step:  1001
+Episode: 946, Reward: 3, Q_max: 3.1616, eps: 0.8976, total_step: 129
+total_reward:  43  total_step:  493
+Episode: 947, Reward: 1, Q_max: 3.2512, eps: 0.9032, total_step: 122
+total_reward:  28  total_step:  360
+Episode: 948, Reward: 0, Q_max: 1.8433, eps: 0.9176, total_step: 104
+total_reward:  80  total_step:  1001
+Episode: 949, Reward: 3, Q_max: 2.3196, eps: 0.9088, total_step: 115
+total_reward:  74  total_step:  975
+Episode: 950, Reward: 1, Q_max: 2.5679, eps: 0.9112, total_step: 112
+total_reward:  76  total_step:  1001
+Episode: 951, Reward: 2, Q_max: 2.8708, eps: 0.9192, total_step: 102
+total_reward:  73  total_step:  1001
+Episode: 952, Reward: 2, Q_max: 3.4879, eps: 0.9208, total_step: 100
+total_reward:  52  total_step:  724
+Episode: 953, Reward: 4, Q_max: 3.6265, eps: 0.9128, total_step: 110
+total_reward:  36  total_step:  447
+Episode: 954, Reward: 1, Q_max: 3.7572, eps: 0.9184, total_step: 103
+total_reward:  12  total_step:  224
+Episode: 955, Reward: 1, Q_max: 2.9177, eps: 0.9104, total_step: 113
+total_reward:  69  total_step:  887
+Episode: 956, Reward: 3, Q_max: 3.9575, eps: 0.9008, total_step: 125
+total_reward:  8  total_step:  105
+Episode: 957, Reward: 0, Q_max: 3.5092, eps: 0.9184, total_step: 103
+total_reward:  80  total_step:  1001
+Episode: 958, Reward: 3, Q_max: 2.7734, eps: 0.8752, total_step: 157
+total_reward:  62  total_step:  758
+Episode: 959, Reward: 1, Q_max: 3.3230, eps: 0.9208, total_step: 100
+total_reward:  79  total_step:  1001
+Episode: 960, Reward: 3, Q_max: 3.5430, eps: 0.9168, total_step: 105
+total_reward:  72  total_step:  1001
+Episode: 961, Reward: 5, Q_max: 3.6423, eps: 0.9008, total_step: 125
+total_reward:  63  total_step:  765
+Episode: 962, Reward: 2, Q_max: 3.2142, eps: 0.9160, total_step: 106
+total_reward:  78  total_step:  1001
+Episode: 963, Reward: 1, Q_max: 3.2842, eps: 0.9160, total_step: 106
+total_reward:  79  total_step:  1001
+Episode: 964, Reward: 3, Q_max: 3.0484, eps: 0.8912, total_step: 137
+total_reward:  20  total_step:  226
+Episode: 965, Reward: 0, Q_max: 2.0026, eps: 0.9200, total_step: 101
+total_reward:  77  total_step:  973
+Episode: 966, Reward: 2, Q_max: 2.8647, eps: 0.9160, total_step: 106
+total_reward:  20  total_step:  244
+Episode: 967, Reward: 1, Q_max: 3.8171, eps: 0.9208, total_step: 100
+total_reward:  78  total_step:  1001
+Episode: 968, Reward: 2, Q_max: 3.4914, eps: 0.9136, total_step: 109
+total_reward:  24  total_step:  316
+Episode: 969, Reward: 2, Q_max: 3.0028, eps: 0.9120, total_step: 111
+total_reward:  85  total_step:  1001
+Episode: 970, Reward: 3, Q_max: 3.2867, eps: 0.9208, total_step: 100
+total_reward:  7  total_step:  100
+Episode: 971, Reward: 2, Q_max: 2.7581, eps: 0.8936, total_step: 134
+total_reward:  21  total_step:  358
+Episode: 972, Reward: 1, Q_max: 2.6591, eps: 0.9200, total_step: 101
+total_reward:  30  total_step:  406
+Episode: 973, Reward: 2, Q_max: 3.1850, eps: 0.9208, total_step: 100
+total_reward:  81  total_step:  1001
+Episode: 974, Reward: 1, Q_max: 3.1592, eps: 0.9200, total_step: 101
+total_reward:  40  total_step:  475
+Episode: 975, Reward: 4, Q_max: 3.7159, eps: 0.9088, total_step: 115
+total_reward:  73  total_step:  1001
+Episode: 976, Reward: 3, Q_max: 3.5867, eps: 0.9176, total_step: 104
+total_reward:  10  total_step:  168
+Episode: 977, Reward: 1, Q_max: 3.0709, eps: 0.9208, total_step: 100
+total_reward:  81  total_step:  1001
+Episode: 978, Reward: 1, Q_max: 3.3016, eps: 0.9112, total_step: 112
+total_reward:  89  total_step:  1001
+Episode: 979, Reward: 1, Q_max: 2.9449, eps: 0.9168, total_step: 105
+total_reward:  49  total_step:  619
+Episode: 980, Reward: 2, Q_max: 2.9045, eps: 0.9112, total_step: 112
+total_reward:  30  total_step:  476
+Episode: 981, Reward: 2, Q_max: 3.5297, eps: 0.9160, total_step: 106
+total_reward:  30  total_step:  410
+Episode: 982, Reward: 2, Q_max: 3.4435, eps: 0.9144, total_step: 108
+total_reward:  15  total_step:  213
+Episode: 983, Reward: 3, Q_max: 3.2847, eps: 0.9168, total_step: 105
+total_reward:  31  total_step:  386
+Episode: 984, Reward: 5, Q_max: 2.7713, eps: 0.8984, total_step: 128
+total_reward:  20  total_step:  282
+Episode: 985, Reward: 0, Q_max: 2.4304, eps: 0.9208, total_step: 100
+total_reward:  66  total_step:  872
+Episode: 986, Reward: 0, Q_max: 3.0979, eps: 0.9184, total_step: 103
+total_reward:  15  total_step:  203
+Episode: 987, Reward: 1, Q_max: 3.5554, eps: 0.9208, total_step: 100
+total_reward:  35  total_step:  445
+Episode: 988, Reward: 2, Q_max: 3.2409, eps: 0.8992, total_step: 127
+total_reward:  33  total_step:  421
+Episode: 989, Reward: 2, Q_max: 2.3906, eps: 0.8872, total_step: 142
+total_reward:  40  total_step:  453
+Episode: 990, Reward: 3, Q_max: 3.6720, eps: 0.9000, total_step: 126
+total_reward:  70  total_step:  847
+Episode: 991, Reward: 0, Q_max: 2.6126, eps: 0.9176, total_step: 104
+total_reward:  82  total_step:  1001
+Episode: 992, Reward: 1, Q_max: 3.2364, eps: 0.9200, total_step: 101
+total_reward:  37  total_step:  534
+Episode: 993, Reward: 4, Q_max: 2.2475, eps: 0.8960, total_step: 131
+total_reward:  29  total_step:  333
+Episode: 994, Reward: 1, Q_max: 2.5105, eps: 0.9160, total_step: 106
+total_reward:  76  total_step:  1001
+Episode: 995, Reward: 8, Q_max: 3.0256, eps: 0.8392, total_step: 202
+total_reward:  16  total_step:  239
+Episode: 996, Reward: 1, Q_max: 2.0980, eps: 0.9192, total_step: 102
+total_reward:  43  total_step:  562
+Episode: 997, Reward: 1, Q_max: 3.2883, eps: 0.9096, total_step: 114
+total_reward:  9  total_step:  143
+Episode: 998, Reward: 0, Q_max: 1.8412, eps: 0.9184, total_step: 103
+total_reward:  27  total_step:  375
+Episode: 999, Reward: 2, Q_max: 3.1235, eps: 0.9144, total_step: 108
+total_reward:  76  total_step:  927
+Episode: 1000, Reward: 1, Q_max: 2.5759, eps: 0.9184, total_step: 103
+total_reward:  73  total_step:  1001

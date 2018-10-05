@@ -98,7 +98,7 @@ eps_end = 0.2
 gamma = 0.9
 target_update_interval = 10
 batch_size = 32
-n_episodes = 500
+n_episodes = 3000
 
 def get_eps(step):
     return max(eps_end, (eps_end - eps_start)/n_steps * step + eps_start)

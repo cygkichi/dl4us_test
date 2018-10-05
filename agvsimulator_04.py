@@ -137,13 +137,13 @@ class AGVSimulator(object):
         reward = 0
         terminal = 0
         if self.state[1,goal_nodes[0]]>0:
-#            print(self.state[1,23],'goal1')
+            print(self.state[1,23],'goal1')
             reward += 1 #00 - self.state[1,30]
             self.state[0,goal_nodes[0]] = 1
             self.state[1,goal_nodes[0]] = 0
             #terminal = 1
         if self.state[2,goal_nodes[1]]>0:
-#            print(self.state[2,70],'goal2')
+            print(self.state[2,70],'goal2')
             reward += 1 #00 - self.state[2,75]
             self.state[0,goal_nodes[1]] = 1
             self.state[2,goal_nodes[1]] = 0
