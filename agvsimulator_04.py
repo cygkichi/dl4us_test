@@ -1,8 +1,8 @@
 import numpy as np
 import networkx as nx
-#import matplotlib.pyplot as plt
-#import matplotlib.cm as cm
-#import matplotlib.animation as animation
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+import matplotlib.animation as animation
 from graphviz import Digraph
 
 def onehot(n, i):
@@ -35,7 +35,9 @@ px = np.array([ 0 , 1, 2, 3, 4, 5, 6, 7, 8, 9,\
                 2 , 1, 0, 0, 0, 0, 0, 0, 0, 0,\
                 0 , 0, 0, 0, 0, 0, 1, 2, 3, 4,\
                 4 ,13,12,11,10, 9, 8, 7, 6, 5,\
-                4 , 3, 2, 1,13,12,11,11,11,11])
+                4 , 3, 2, 1,13,12,11,11,11,11,\
+                9 , 9, 9, 9, 9, 5, 5, 5, 5, 5,\
+                11,11,11,11,11,11,11,12,13])
 py = np.array([ 0 , 0, 0, 0, 0, 0, 0, 0, 0, 0,\
                 0 , 0, 0, 0, 0, 1, 2, 3, 4, 5,\
                 6 , 7, 8, 9,10,11,12,13,14,14,\
@@ -43,7 +45,9 @@ py = np.array([ 0 , 0, 0, 0, 0, 0, 0, 0, 0, 0,\
                 14,14,14,13,12,11,10, 9, 8, 7,\
                 6 , 5, 4, 3, 2, 1, 2, 2, 2, 2,\
                 1 , 8, 8, 8, 8, 8, 8, 8, 8, 8,\
-                8 , 8, 8, 8,10,10,10,11,12,13])
+                8 , 8, 8, 8,10,10,10,11,12,13,\
+                13,12,11,10, 9, 9,10,11,12,13,\
+                7 , 6, 5, 4, 3, 2, 1, 5, 5])
 
 start_nodes=[ 0, 59]
 goal_nodes =[76, 28]
@@ -137,13 +141,13 @@ class AGVSimulator(object):
         reward = 0
         terminal = 0
         if self.state[1,goal_nodes[0]]>0:
-            print(self.state[1,23],'goal1')
+            print(self.state[1,goal_nodes[0]],'goal1')
             reward += 1 #00 - self.state[1,30]
             self.state[0,goal_nodes[0]] = 1
             self.state[1,goal_nodes[0]] = 0
             #terminal = 1
         if self.state[2,goal_nodes[1]]>0:
-            print(self.state[2,70],'goal2')
+            print(self.state[2,goal_nodes[1]],'goal2')
             reward += 1 #00 - self.state[2,75]
             self.state[0,goal_nodes[1]] = 1
             self.state[2,goal_nodes[1]] = 0
