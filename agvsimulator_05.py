@@ -1,8 +1,8 @@
 import numpy as np
 import networkx as nx
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-import matplotlib.animation as animation
+#import matplotlib.pyplot as plt
+#import matplotlib.cm as cm
+#import matplotlib.animation as animation
 from graphviz import Digraph
 
 def onehot(n, i):
@@ -18,14 +18,16 @@ def close_branch(A, edges):
         A[i, j] = 0
 
 def pick_cargo(state):
+    reward = 0
     new_state = []
     for i,s in enumerate(state.T):
         if (s[0]>0) and np.all(s[1:3]==0) and np.any(s[3:]>0):
             ns = [0] + list(s[3:]) + list(s[3:]*0)
+            reward += 1
         else:
             ns = list(s)
         new_state.append(ns)
-    return np.array(new_state, dtype=int).T
+    return np.array(new_state, dtype=int).T, reward
 
 
 px = np.array([ 0 , 1, 2, 3, 4, 5, 6, 7, 8, 9,\
@@ -110,7 +112,7 @@ class AGVSimulator(object):
         plt.show()
 
 
-    def step(self, action):
+    def step(self, action, mode='limit'):
         now_state = self.state
         action_b = action
         action_m = np.random.randint(2, size=self.n_branchs)
@@ -126,7 +128,7 @@ class AGVSimulator(object):
         move_agv = now_state[:self.t_cargo+1] * (1-is_stop)# stop_agv
         next_agv = np.dot(move_agv, closedA) + stop_agv
         next_state = np.vstack([next_agv, now_state[self.t_cargo+1:]])
-        next_state  = pick_cargo(next_state)
+        next_state, reward  = pick_cargo(next_state)
         if np.all(next_state[:,start_nodes[0]] == 0):
             if np.random.rand() < 0.1:
                 next_state[3,start_nodes[0]] = 1
@@ -135,16 +137,16 @@ class AGVSimulator(object):
                 next_state[4,start_nodes[1]] = 1
         next_state = np.vstack([next_state[0],(next_state[1:]>0)*(next_state[1:]+1)])
         self.state = next_state
-        reward = 0
+#        reward = 0
         terminal = 0
         if self.state[1,goal_nodes[0]]>0:
-#            print(self.state[1,goal_nodes[0]],'goal1')
+            print(mode,self.state[1,goal_nodes[0]],'goal1')
             reward += 1 #00 - self.state[1,30]
             self.state[0,goal_nodes[0]] = 1
             self.state[1,goal_nodes[0]] = 0
             #terminal = 1
         if self.state[2,goal_nodes[1]]>0:
-#            print(self.state[2,goal_nodes[1]],'goal2')
+            print(mode,self.state[2,goal_nodes[1]],'goal2')
             reward += 1 #00 - self.state[2,75]
             self.state[0,goal_nodes[1]] = 1
             self.state[2,goal_nodes[1]] = 0
@@ -159,8 +161,9 @@ class AGVSimulator(object):
 #        print(self.state)]
 #        print(np.max(self.state[1:]),'max')
 #print(self.state)
-        if np.max(self.state[1:]) > 100:
-            terminal = 1
+        if mode != 'nolimit':
+            if np.max(self.state[1:]) > 150:
+                terminal = 1
         return next_state, reward, terminal, 1
 
 
