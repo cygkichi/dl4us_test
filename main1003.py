@@ -9,12 +9,13 @@ from keras.optimizers import RMSprop
 from keras.utils import to_categorical
 from agvsimulator_04 import *
 
-n_branch=7
+#n_branch=7
+n_branch=4
 n_actions = 2**n_branch
 
 def build_mlp():
     model = Sequential()
-    model.add(Dense(100, activation='relu', input_shape=(495,)))
+    model.add(Dense(100, activation='relu', input_shape=(425,)))
     model.add(Dense(n_actions))
     model.compile(RMSprop(), 'mse')
     return model
@@ -64,7 +65,7 @@ while True:
 
     while not terminal:
         action = np.random.randint(0, n_actions)
-        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-n_branch:]])
+        next_state, reward, terminal, _ = env.step([int(i) for i in ('00000000'+format(action,'b'))[-n_branch:]])
         next_state = np.clip(next_state.flatten(),0,1)
         #next_state = next_state.flatten()
         reward = np.sign(reward)
@@ -129,7 +130,7 @@ def test():
         q = model.predict(state.flatten()[None]).flatten()
         action = np.argmax(q)
         #print(env.state, action)
-        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-n_branch:]])
+        next_state, reward, terminal, _ = env.step([int(i) for i in ('00000000'+format(action,'b'))[-n_branch:]])
         next_state = np.clip(next_state.flatten(),0,1)
         #next_state = next_state.flatten()
         total_reward += reward
@@ -154,7 +155,7 @@ for episode in range(n_episodes):
             action = np.random.randint(0, n_actions)
         else:
             action = np.argmax(q)
-        next_state, reward, terminal, _ = env.step([int(i) for i in ('0000000'+format(action,'b'))[-n_branch:]])
+        next_state, reward, terminal, _ = env.step([int(i) for i in ('00000000'+format(action,'b'))[-n_branch:]])
         next_state = np.clip(next_state.flatten(),0,1)
         #next_state = next_state.flatten()
         #reward = np.sign(reward)
@@ -178,6 +179,7 @@ for episode in range(n_episodes):
 #        print(step,'step')
     if (episode + 1) % 1 == 0:
         print('Episode: {}, Reward: {}, Q_max: {:.4f}, eps: {:.4f}, total_step: {}'.format(episode + 1, total_reward, np.mean(total_q_max), eps, step))
+        print(q)
         test()
         
 
